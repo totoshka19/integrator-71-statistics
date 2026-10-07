@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-10-07T11:24:12.196855+00:00",
+  "retrieved_at": "2026-10-07T21:19:43.012570+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-10-06T16:00:33.447263+00:00",
+  "source_updated_at": "2026-10-07T21:07:55.825802+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-10-05"
+    "to": "2026-10-07"
   },
   "people": [
     {
@@ -56,11 +56,19 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-05"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-07"
         }
       ],
       "last_attempt": {
-        "from": "2026-09-01",
-        "to": "2026-10-05",
+        "from": "2026-10-05",
+        "to": "2026-10-07",
         "list_complete": true
       }
     },
@@ -69,11 +77,19 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-05"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-07"
         }
       ],
       "last_attempt": {
-        "from": "2026-09-01",
-        "to": "2026-10-05",
+        "from": "2026-10-05",
+        "to": "2026-10-07",
         "list_complete": true
       }
     },
@@ -82,11 +98,19 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-05"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-07"
         }
       ],
       "last_attempt": {
-        "from": "2026-09-01",
-        "to": "2026-10-05",
+        "from": "2026-10-05",
+        "to": "2026-10-07",
         "list_complete": true
       }
     },
@@ -95,11 +119,19 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-05"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-05",
+          "to": "2026-10-07"
         }
       ],
       "last_attempt": {
-        "from": "2026-09-01",
-        "to": "2026-10-05",
+        "from": "2026-10-05",
+        "to": "2026-10-07",
         "list_complete": true
       }
     }
@@ -13634,6 +13666,580 @@
         }
       },
       "summary": "Настройка повторного использования соединений и WebSocket-маршрутов."
+    },
+    {
+      "accepted_day": "2026-10-06",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
+      "mr_key": "m-1832611bfb3099a2ccc80da0",
+      "work_unit_id": "u-2abe6218405bd73a56973acf",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-9dc29357255e823a77fb1112",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавить узнаваемую иконку сайта для вкладок и мобильных устройств."
+    },
+    {
+      "accepted_day": "2026-10-07",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-868552b5d8a8fc7558a1711c",
+      "work_unit_id": "u-1596b331666fafb2c525b06c",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-82b43d8c27002f9492a19949",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 1223,
+          "deleted": 7,
+          "churn": 1230,
+          "net": 1216,
+          "known_added": 1223,
+          "known_deleted": 7,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 516,
+          "deleted": 5,
+          "churn": 521,
+          "net": 511,
+          "known_added": 516,
+          "known_deleted": 5,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавить форму карточки каталога с вариантами, фотографиями и действиями модерации."
+    },
+    {
+      "accepted_day": "2026-10-07",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
+      "mr_key": "m-a51dd95f36ff7c6571798dcf",
+      "work_unit_id": "u-5cd4a44ed4c522a2454d9c87",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-9dc29357255e823a77fb1112",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 198,
+          "deleted": 36,
+          "churn": 234,
+          "net": 162,
+          "known_added": 198,
+          "known_deleted": 36,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 271,
+          "deleted": 0,
+          "churn": 271,
+          "net": 271,
+          "known_added": 271,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Показывать ошибку категорий и повторять загрузку без потери выбора и фокуса."
+    },
+    {
+      "accepted_day": "2026-10-07",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
+      "mr_key": "m-4cb8aaf99998066a331037e3",
+      "work_unit_id": "u-3a5d794a33245da6021ebc36",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 31,
+          "deleted": 16,
+          "churn": 47,
+          "net": 15,
+          "known_added": 31,
+          "known_deleted": 16,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 162,
+          "deleted": 0,
+          "churn": 162,
+          "net": 162,
+          "known_added": 162,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 2,
+          "deleted": 1,
+          "churn": 3,
+          "net": 1,
+          "known_added": 2,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 1,
+          "deleted": 1,
+          "churn": 2,
+          "net": 0,
+          "known_added": 1,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Уточнить редактирование профиля для разных типов учётных записей."
+    },
+    {
+      "accepted_day": "2026-10-07",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-fc91a0779e2ca6b25b9eee1d",
+      "work_unit_id": "u-4e22adf14b6c73c0b2ba633d",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-82b43d8c27002f9492a19949",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 1110,
+          "deleted": 7,
+          "churn": 1117,
+          "net": 1103,
+          "known_added": 1110,
+          "known_deleted": 7,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 794,
+          "deleted": 0,
+          "churn": 794,
+          "net": 794,
+          "known_added": 794,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавить управление производителями, их данными и логотипами."
+    },
+    {
+      "accepted_day": "2026-10-07",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
+      "mr_key": "m-ee601a9d04e5c3db354b34db",
+      "work_unit_id": "u-419664d6b4c8d5d3c54edd3d",
+      "project_id": "r-916a3bd16a762f4dab0de7ec",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 269,
+          "deleted": 0,
+          "churn": 269,
+          "net": 269,
+          "known_added": 269,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 99,
+          "deleted": 0,
+          "churn": 99,
+          "net": 99,
+          "known_added": 99,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 101,
+          "deleted": 1,
+          "churn": 102,
+          "net": 100,
+          "known_added": 101,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 22,
+          "deleted": 0,
+          "churn": 22,
+          "net": 22,
+          "known_added": 22,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавлены ежедневные внешние резервные копии базы и файлов и обработка ошибок с удалением персональных данных."
+    },
+    {
+      "accepted_day": "2026-10-07",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-9cc6edfbc0a354136aef801f",
+      "work_unit_id": "u-dc6c09db120da0af4b7e7ef1",
+      "project_id": "r-916a3bd16a762f4dab0de7ec",
+      "contributors": [
+        {
+          "person_id": "p-7b89c7e0808134a73abbfce8",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 5204,
+          "deleted": 67,
+          "churn": 5271,
+          "net": 5137,
+          "known_added": 5204,
+          "known_deleted": 67,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 2731,
+          "deleted": 18,
+          "churn": 2749,
+          "net": 2713,
+          "known_added": 2731,
+          "known_deleted": 18,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 76,
+          "deleted": 1,
+          "churn": 77,
+          "net": 75,
+          "known_added": 76,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 9,
+          "deleted": 3,
+          "churn": 12,
+          "net": 6,
+          "known_added": 9,
+          "known_deleted": 3,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавлены каталог и предложения, управление карточками и вариантами в кабинетах, история изменений и загрузка файлов."
     }
   ]
 }
