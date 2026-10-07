@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Принятые результаты команды Интегратор 7/1: MR, оценка выполненной работы и изменения строк по дням.">
+  <title>Статистика команды · Интегратор 7/1</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23142F46'/%3E%3Ctext x='20' y='27' text-anchor='middle' fill='white' font-size='22'%3E7%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#filters">К фильтрам статистики</a>
+  <main>
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">7/1</span><span>Интегратор<br><small>Журнал работы команды</small></span></div>
+      <p class="update" id="updated">Загрузка данных…</p>
+    </header>
+    <section class="intro" aria-labelledby="title">
+      <p class="eyebrow">Принятые результаты / по дням</p>
+      <h1 id="title">Статистика команды</h1>
+      <p>Что принято в проект, как оценена работа и сколько строк изменилось. Выберите период, участника и репозиторий, чтобы увидеть свой срез.</p>
+    </section>
+    <p id="load-state" class="notice" role="status">Загружаем сохранённую статистику…</p>
+    <button id="retry" hidden type="button">Повторить загрузку</button>
+    <noscript><p class="notice">Для фильтров и графиков включите JavaScript. Данные доступны в <a href="./data/metrics.json">публичном JSON</a>.</p></noscript>
+    <div id="dashboard" hidden>
+      <form id="filters" class="filters" aria-label="Фильтры статистики">
+        <label>Период от<input id="from" type="date" required></label>
+        <label>До<input id="to" type="date" required></label>
+        <label>Участник<select id="person"><option value="">Вся команда</option></select></label>
+        <label>Репозиторий<select id="project"><option value="">Все репозитории</option></select></label>
+        <label>Оценка SP<select id="mode"><option value="neural">Нейросетевая</option><option value="selected">С ручными поправками</option></select></label>
+        <button type="button" id="reset">Сбросить</button>
+      </form>
+      <p id="filter-error" class="error" role="alert" hidden></p>
+      <div id="result" aria-busy="false">
+        <p id="coverage" class="coverage" role="status" aria-live="polite"></p>
+        <section class="metrics" aria-label="Итоги выбранного периода">
+          <div><h2>Принятые MR</h2><p id="mr-value" class="metric-number"></p><p id="mr-note" class="metric-note"></p></div>
+          <div><h2>Оценка работы <span>SP</span></h2><p id="sp-value" class="metric-number"></p><p id="sp-note" class="metric-note"></p></div>
+          <div><h2>Изменения кода <span>строки</span></h2><p id="loc-value" class="metric-number"></p><p id="loc-note" class="metric-note"></p></div>
+        </section>
+        <section class="timeline" aria-labelledby="timeline-title">
+          <div class="section-heading"><h2 id="timeline-title">Динамика по дням</h2><p>Отдельная шкала для каждого показателя</p></div>
+          <div class="chart-grid"><figure><figcaption>01 / Принятые MR</figcaption><div id="chart-mr"></div></figure><figure><figcaption>02 / Оценка SP</figcaption><div id="chart-sp"></div></figure><figure><figcaption>03 / Изменения кода</figcaption><div id="chart-loc"></div></figure></div>
+          <p class="legend"><span class="solid-dot" aria-hidden="true"></span>Полный итог <span class="hollow-dot" aria-hidden="true"></span>Только известная часть · Разрыв — нет подтверждённого значения</p>
+        </section>
+        <section aria-labelledby="table-title" class="table-section">
+          <div class="section-heading"><div><h2 id="table-title">Дни и участники</h2><p id="table-note"></p></div><button id="csv" type="button">Скачать CSV <span aria-hidden="true">↓</span></button></div>
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Таблица статистики, доступна прокрутка"><table><caption class="sr-only">Показатели выбранного периода по дням и участникам; дневные итоги совпадают с графиками</caption><thead><tr><th scope="col">Дата</th><th scope="col">Участник</th><th scope="col">MR</th><th scope="col">SP</th><th scope="col">Код, строки</th><th scope="col">Статус</th></tr></thead><tbody id="table-body"></tbody><tfoot id="table-total"></tfoot></table></div>
+        </section>
+        <section class="brief" aria-labelledby="brief-title"><div class="section-heading"><h2 id="brief-title">Выжимка результатов</h2><p>Публичные описания выбранных работ</p></div><ul id="brief-list"></ul></section>
+        <section class="method" aria-labelledby="method-title"><h2 id="method-title">Как читать эти числа</h2><div class="method-grid"><div><h3>MR — принятый результат</h3><p>Дата — день слияния в московском времени. Каждый MR считается один раз в общем итоге. Совместный MR виден у каждого участника, поэтому сумму их MR нельзя использовать как итог команды.</p></div><div><h3>SP — оценка работы</h3><p>Шкала 1, 2, 3, 5, 8, 13 описывает сложность выполненной работы. Связанные MR могут быть одной единицей; SP делятся по долям. Переключатель показывает исходную оценку или её версию с ручными поправками.</p></div><div><h3>Строки — объём изменений</h3><p>Код: добавленные + удалённые непустые строки без комментариев. Тесты, документация и конфигурация учитываются отдельно. Генерируемые файлы, зависимости и бинарные файлы исключены.</p></div><div><h3>Неизвестное остаётся неизвестным</h3><p>«—» означает неполный итог; рядом указана известная часть. Ноль появляется только при подтверждённых данных. Повторный перенос результата не добавляет SP и строки. Числа не являются рейтингом людей или оценкой производительности.</p></div></div><details><summary>Изменения по категориям выбранного периода</summary><div id="categories"></div></details></section>
+      </div>
+    </div>
+    <footer><span>Интегратор 7/1 · Статистика принятых результатов</span><a href="./data/metrics.json">Публичные данные JSON ↗</a><p>Обновление выполняется вручную по сохранённым данным. Страница не обращается к GitLab и не пересчитывает SP самостоятельно.</p></footer>
+  </main>
+</body>
+</html>
