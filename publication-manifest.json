@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0",
   "source": "public package manifest",
-  "retrieved_at": "2026-10-07T09:05:43.878353+00:00",
+  "retrieved_at": "2026-10-07T11:24:12.562744+00:00",
   "files": {
     ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
-    "README.md": "8f4226965995bd3686594a0188f26312468edc154126d1300cac9e28772f289e",
-    "site/index.html": "70dfcb80edf7e431fe97bac3a2efadcf7c32ba04c3ebd3e3b8916e3f841a1f00",
-    "site/manifest.json": "27f979853d3f5e39ba7f9c530c8d60381b599a28706085746abbe42007d89e1c",
+    "README.md": "01244a0ed00d081717b8f1fbb95ea6dee6e4ea31244e0ad41613fbb71f93803d",
+    "site/index.html": "8e3389d13b135381af81296a575e7a475d88ed90072c86c220cf3b83d57122cd",
+    "site/manifest.json": "a7abb5e9b55c7274f31130160bb308a22703ab35870eaa5a53a60b699072ca60",
     ".github/workflows/pages.yml": "e1e555516b5aa5a42d38c0add4dd4d3297e8a83e8120dc1d60b93d5c27d150d8",
     "site/assets/aggregate.mjs": "ad184327934fc339403ca286ca0aa176c425c8c468a7e557b5525bc4d643b60e",
     "site/assets/app.mjs": "a5e6d7ae1a0229f9108432c7d1c75a30f0eb421eeb39d56cf52d6223133becc0",
     "site/assets/styles.css": "886c73a7ec71c0e7f7c42cbad897fb38dbb03f7f8f0bfda9386d2c940a2826ca",
-    "site/data/metrics.json": "4142352f777e4d3f8b1c75d49e6cd9d30510f94300419c1040e0eb4320f3de30"
+    "site/data/metrics.json": "5b0910c34bc17d713c8e1a91662431a066c23038ba97f5d3b3a75884bf2f0daf"
   }
 }

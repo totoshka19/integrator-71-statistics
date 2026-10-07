@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-10-07T09:05:43.503555+00:00",
+  "retrieved_at": "2026-10-07T11:24:12.196855+00:00",
   "methodology_version": "sp-v1",
-  "line_methodology_version": "loc-v1",
+  "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
   "source_updated_at": "2026-10-06T16:00:33.447263+00:00",
   "period": {
@@ -110,10 +110,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-825fe97cfad990da4ce4853e",
       "work_unit_id": "u-36dca175d0dc30b30428df7e",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -125,14 +125,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 1282,
+          "added": 1408,
+          "deleted": 0,
+          "churn": 1408,
+          "net": 1408,
+          "known_added": 1408,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 12,
@@ -155,11 +155,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 120,
+          "added": 170,
           "deleted": 0,
-          "churn": 120,
-          "net": 120,
-          "known_added": 120,
+          "churn": 170,
+          "net": 170,
+          "known_added": 170,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -175,27 +175,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 26
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовить основу приложения и инструменты разработки."
     },
     {
       "accepted_day": "2026-09-15",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-9a52ac7a46086142b34da9b2",
       "work_unit_id": "u-841b70f6fad493bf683dffa1",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -237,12 +237,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 6,
-          "deleted": 1,
-          "churn": 7,
-          "net": 5,
-          "known_added": 6,
-          "known_deleted": 1,
+          "added": 9,
+          "deleted": 2,
+          "churn": 11,
+          "net": 7,
+          "known_added": 9,
+          "known_deleted": 2,
           "complete": true,
           "unknown_files": 0
         },
@@ -257,27 +257,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подключить типизированный API и локальные демонстрационные данные."
     },
     {
       "accepted_day": "2026-09-15",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-ac41532d7fac038c440c55f2",
       "work_unit_id": "u-a86c43e85d102e7b6024bfff",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -349,17 +349,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнить последовательность подготовки окружения и установки приложения."
     },
     {
       "accepted_day": "2026-09-15",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-f4d4df29310caad7e6dbf144",
       "work_unit_id": "u-a48f3d6c4506bb353fdf4b6f",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -371,11 +371,11 @@
       ],
       "categories": {
         "code": {
-          "added": 173,
+          "added": 193,
           "deleted": 0,
-          "churn": 173,
-          "net": 173,
-          "known_added": 173,
+          "churn": 193,
+          "net": 193,
+          "known_added": 193,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -391,24 +391,24 @@
           "unknown_files": 0
         },
         "documentation": {
-          "added": 0,
+          "added": 1,
           "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
+          "churn": 1,
+          "net": 1,
+          "known_added": 1,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
         },
         "configuration": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 49,
+          "added": 83,
+          "deleted": 0,
+          "churn": 83,
+          "net": 83,
+          "known_added": 83,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "excluded": {
           "added": 0,
@@ -421,27 +421,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 5
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлена основа серверного приложения, подключение базы данных и единый формат ошибок."
     },
     {
       "accepted_day": "2026-09-15",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-73735fedfc3c3c4a105a9446",
       "work_unit_id": "u-9d625f5d9c7bd4340e2b7b90",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -513,17 +513,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Требования к кешированию проверки доступа и сохранению снимка заказа."
     },
     {
       "accepted_day": "2026-09-15",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-92cfa0e6ac2bf369c6a73dc9",
       "work_unit_id": "u-5ce2404becf77d7f8a5978a8",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -595,17 +595,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Регистрация сразу выполняет вход: уточнение архитектурного решения."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-9afdd16e67705847a3dc06d4",
       "work_unit_id": "u-7736a5b6437445c6525419bb",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -677,17 +677,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлен контракт чтения и частичного изменения настроек уведомлений по четырём категориям и двум каналам."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-c858860fb124576e675eaed7",
       "work_unit_id": "u-cccc68aff586d1584fbf2ca8",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -759,17 +759,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновлена документация установки и статуса пакетов для выпуска с настройками уведомлений."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-2b21970075af8f604c1fb6e4",
       "work_unit_id": "u-ac4f86a33f17322fb5c77cd3",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -841,17 +841,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Описаны регистрация клиента, заявки на дополнительные роли и их рассмотрение."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-4b9216444caeeacd661fd2ba",
       "work_unit_id": "u-e51b569dc8a9d952b8e5dda7",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -913,27 +913,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить настройки уведомлений с переключателями каналов и сохранением."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-f07648ab64b1a377ae942cff",
       "work_unit_id": "u-e426cdb983a6ddb221807e87",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -975,11 +975,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 15,
+          "added": 17,
           "deleted": 3,
-          "churn": 18,
-          "net": 12,
-          "known_added": 15,
+          "churn": 20,
+          "net": 14,
+          "known_added": 17,
           "known_deleted": 3,
           "complete": true,
           "unknown_files": 0
@@ -995,27 +995,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 3
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить вход, регистрацию и восстановление сессии с повтором запросов."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-8d637f04c5c8a19516485908",
       "work_unit_id": "u-5f9260c566707f5b99c7e3c6",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1087,17 +1087,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить восстановление пароля и подтверждение электронной почты."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-9f52e996ea5decc6db89c2b2",
       "work_unit_id": "u-d76458cb30cc119d91addac0",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1169,17 +1169,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить каркас кабинета и редактирование профиля, аватара и пароля."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-f1317da88a42e578eea77491",
       "work_unit_id": "u-a216707d2e4c0bb2808758c2",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1251,17 +1251,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить ссылки главной страницы, плавную прокрутку и закрытие мобильного меню."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-792e6b6da39de0ffac52f30a",
       "work_unit_id": "u-714a950fe5bc02fe4b9a9dbb",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1333,17 +1333,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить регистрацию и переход к заявке на роль."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-b321bbdecd0c763be97c79ac",
       "work_unit_id": "u-fbcac3dc9e13c5e467d7f184",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1415,17 +1415,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Повысить контраст кнопок и добавить браузерную проверку цвета текста."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-8653bdc8af2db1bbdfb516fc",
       "work_unit_id": "u-5e3be7d962f696bfaf4222a0",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1467,11 +1467,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 7,
+          "added": 8,
           "deleted": 2,
-          "churn": 9,
-          "net": 5,
-          "known_added": 7,
+          "churn": 10,
+          "net": 6,
+          "known_added": 8,
           "known_deleted": 2,
           "complete": true,
           "unknown_files": 0
@@ -1487,27 +1487,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить зависимости и настройки установки приложения."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-c448ec501da345ff7642cf13",
       "work_unit_id": "u-e5f4f68bdf37d79750785139",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1519,14 +1519,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 29,
-          "known_deleted": 93,
-          "complete": false,
-          "unknown_files": 1
+          "added": 31,
+          "deleted": 95,
+          "churn": 126,
+          "net": -64,
+          "known_added": 31,
+          "known_deleted": 95,
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 52,
@@ -1569,27 +1569,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 5
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить каркас, шрифты и локализацию приложения."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-e363fc611f293eafdfbe5d36",
       "work_unit_id": "u-d6f9c6ab639e9ab20b09ed06",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1661,17 +1661,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Настроить автоматические проверки и сборку приложения."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-9cee48f634d998fd2b657b50",
       "work_unit_id": "u-60635bbaa4efd66ac3e8d60b",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1743,17 +1743,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Описать порядок работы с ветками и проверками."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-a4025ece7f4bf43249bc1f92",
       "work_unit_id": "u-cc1e05c14038195dd53dc910",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1765,14 +1765,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 1139,
+          "added": 1163,
+          "deleted": 4,
+          "churn": 1167,
+          "net": 1159,
+          "known_added": 1163,
           "known_deleted": 4,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 55,
@@ -1825,17 +1825,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Создать адаптивную главную страницу с разделами платформы и мобильным меню."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-29e3feeb349c3859fb5abf83",
       "work_unit_id": "u-f6a0ed354795be8be4b20aef",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -1907,17 +1907,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить контракты для настроек уведомлений."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-bafe19adce169513062e97ed",
       "work_unit_id": "u-977e9f3c0bcbd30e0007ee9e",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -1959,11 +1959,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 2,
+          "added": 8,
           "deleted": 0,
-          "churn": 2,
-          "net": 2,
-          "known_added": 2,
+          "churn": 8,
+          "net": 8,
+          "known_added": 8,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -1979,27 +1979,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлена общая схема данных для пользователей, объектов, каталога и заказов, согласованная с API."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-551c9b9219bb6987907d029c",
       "work_unit_id": "u-da54820f702ac693b55b8ef5",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -2041,12 +2041,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
-          "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
-          "known_deleted": 0,
+          "added": 19,
+          "deleted": 1,
+          "churn": 20,
+          "net": 18,
+          "known_added": 19,
+          "known_deleted": 1,
           "complete": true,
           "unknown_files": 0
         },
@@ -2061,27 +2061,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнены модель объектов, порядок этапов, денежные значения и ограничения загружаемых файлов."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-8d90bf1590c8d4daca18cb66",
       "work_unit_id": "u-90ae286085bad1183f83f24f",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -2153,17 +2153,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены регистрация, вход, обновление сессии, подтверждение почты и восстановление пароля."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-f7362e9472ce2e540f097ca0",
       "work_unit_id": "u-225317d5343616256fe713c0",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -2235,17 +2235,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены профили пользователей, заявки на роли, настройки уведомлений и расширена обработка сессий."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-eac8c4b59ae251324bcfcbc9",
       "work_unit_id": "u-050c8bcc183acdc802fe0b28",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -2317,17 +2317,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Правила принятия приглашений после подтверждения email."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-794595a3def1e15e13fd879c",
       "work_unit_id": "u-31e8f9c8be5d03214483f83b",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -2399,17 +2399,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Повторная оплата заказа и возвраты отменённых подзаказов."
     },
     {
       "accepted_day": "2026-09-16",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-b0bb0705c343a420332c1f34",
       "work_unit_id": "u-4d174a12872c6c322eef3938",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -2481,17 +2481,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Несколько ролей пользователя и заявки на дополнительные роли."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-404782eaafd05d47d42f9823",
       "work_unit_id": "u-30f33ad1d4600fae2fca39f5",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -2563,17 +2563,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены API-контракты объектов, приглашений, файлов, этапов работ и фотографий."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-701cdbb2f5b6dc9a39c503b7",
       "work_unit_id": "u-1bf926b23f0f7db392a35953",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -2645,17 +2645,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнены правила приглашений, переходов этапов и обработки изображений; добавлены связанные примеры объектов для мока."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-8e102b571c0bd3449159890a",
       "work_unit_id": "u-82782c41751adf09656ef762",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -2727,17 +2727,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнены контрактные правила обновления и завершения сессий."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-b2aa8a667a2829a07a41560d",
       "work_unit_id": "u-282e9e968976c7f14f35ced9",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -2809,17 +2809,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить просмотр и отправку заявок на роли с проверкой данных."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-37ede6b6593cd28c21514ed6",
       "work_unit_id": "u-ea37620cbe7cb49a5a79bbd6",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -2891,17 +2891,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Закрепить правила разработки и автоматические проверки кода."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-9b5a8d3e2be90f2e76123535",
       "work_unit_id": "u-f9f03c32dcd3555f7da387b6",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -2973,17 +2973,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить редактирование профилей мастера и поставщика."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-cc6841fed17c8ff69cd40ee5",
       "work_unit_id": "u-1377b28a8726b4daa59d38ad",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3055,17 +3055,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Раздельные подзаказы товаров и услуг и выплаты по подзаказу."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-3ba8c104b956f93f60bf22ba",
       "work_unit_id": "u-9d98121ad22046c2dcffd680",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3137,17 +3137,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Синхронизация числа операций объектов и этапов с контрактом."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-4b90030004b8d5f696a159f5",
       "work_unit_id": "u-131fb9fe158961c83f161f6b",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3219,17 +3219,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Общий документ команды и распределение ответственности за deployment."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-d04137b1a75af1007c9671be",
       "work_unit_id": "u-620e6926acbceea4d58a793c",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3301,17 +3301,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Совместное ведение контракта и правила его ревью."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-6fc510cb2954e9b62e8e178f",
       "work_unit_id": "u-65d8a2e1dd399ac44d0f1fa8",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3343,14 +3343,14 @@
           "unknown_files": 0
         },
         "documentation": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 296,
+          "added": 4885,
+          "deleted": 1,
+          "churn": 4886,
+          "net": 4884,
+          "known_added": 4885,
           "known_deleted": 1,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "configuration": {
           "added": 0,
@@ -3383,17 +3383,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Архитектура общего каталога, фонового импорта и отката загрузки."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-568ca74f81473b465b09d679",
       "work_unit_id": "u-3dfbfe058690057691313b4a",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3465,17 +3465,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Сессии авторизации и правила ротации refresh-токенов."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-73801838e5df16ba40d45606",
       "work_unit_id": "u-97b7bd6faaf01ddd102aaf53",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3547,17 +3547,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Правила конвертации HEIC и ограничения файлов объекта."
     },
     {
       "accepted_day": "2026-09-17",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-fbc4d51ef70bcf5f6f37e607",
       "work_unit_id": "u-7eb141fc6181c5bab40171fa",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -3629,17 +3629,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Удаление этапов только у черновика объекта."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-b3c1a8a3368fc5f5652d6ea7",
       "work_unit_id": "u-6f4d305419c41f1ce0c44895",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -3711,17 +3711,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Описаны публичный каталог, категории и кабинет поставщика с предложениями, карточками, фотографиями и правилами проверки."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-f6db5d2e6e4a1da4a3bca32d",
       "work_unit_id": "u-32a38333d6b2c3372d75b98e",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -3783,27 +3783,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить рассмотрение заявок на роли с фильтрацией и пагинацией."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-9d77fc34c059879cfc07d6db",
       "work_unit_id": "u-c71c2d820be81badc587a780",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -3875,17 +3875,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подключить новые группы операций API."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-a7c6257f4ca4ef2ac3308d01",
       "work_unit_id": "u-195f48353a8362c83c64de25",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -3957,17 +3957,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить иллюстрацию и доступное описание на главный экран."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-7f8921dc7e159eec4f7ba3c3",
       "work_unit_id": "u-ab49e24ffd9be4046b28aa7e",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -4029,27 +4029,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Объединить состояния загрузки и ошибок и упростить страницы кабинета."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-f161817b9bbea89ef72c45a0",
       "work_unit_id": "u-dc352e9a6b763110d5a760d0",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -4111,27 +4111,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Объединить формы ролей и улучшить работу кнопок при сохранении."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-21851c43d0a2b98900a3a100",
       "work_unit_id": "u-6b1639945f8ce8b52f31805d",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -4203,17 +4203,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Согласовать данные профиля после входа и подтверждения почты."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-3b6218629ae3c1eedfc6d343",
       "work_unit_id": "u-52ad8818a5b2a3d767d3e0ec",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -4255,11 +4255,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 17,
+          "added": 22,
           "deleted": 1,
-          "churn": 18,
-          "net": 16,
-          "known_added": 17,
+          "churn": 23,
+          "net": 21,
+          "known_added": 22,
           "known_deleted": 1,
           "complete": true,
           "unknown_files": 0
@@ -4275,27 +4275,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Согласованы заявки на роли и административные решения с обновлённым API."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-a18de5fb08157cf36c769232",
       "work_unit_id": "u-c78d2a5d4306a1cf514aabe5",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -4367,17 +4367,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены операции с объектами, этапами, приглашениями, файлами и сметами."
     },
     {
       "accepted_day": "2026-09-18",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-50db01d1be4a723f76980dcf",
       "work_unit_id": "u-7508b6d5604e8846bd88b4f7",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -4409,11 +4409,11 @@
           "unknown_files": 0
         },
         "documentation": {
-          "added": 159,
+          "added": 4189,
           "deleted": 66,
-          "churn": 225,
-          "net": 93,
-          "known_added": 159,
+          "churn": 4255,
+          "net": 4123,
+          "known_added": 4189,
           "known_deleted": 66,
           "complete": true,
           "unknown_files": 0
@@ -4439,27 +4439,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Требования общего каталога и материалы для заполнения каталога производителя."
     },
     {
       "accepted_day": "2026-09-21",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-4ea2706740766b0f0e630def",
       "work_unit_id": "u-29d87c91736df500de2c8c39",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -4501,11 +4501,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 1,
+          "added": 2,
           "deleted": 0,
-          "churn": 1,
-          "net": 1,
-          "known_added": 1,
+          "churn": 2,
+          "net": 2,
+          "known_added": 2,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -4521,27 +4521,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 3
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить каталог с поиском, фильтрами, деревом категорий и адаптивной пагинацией."
     },
     {
       "accepted_day": "2026-09-21",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-0deab0e1cdc39a5c07324387",
       "work_unit_id": "u-eeecf10c3185fb88690b7790",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -4553,14 +4553,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 420,
+          "added": 421,
+          "deleted": 59,
+          "churn": 480,
+          "net": 362,
+          "known_added": 421,
           "known_deleted": 59,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 148,
@@ -4613,17 +4613,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить выбор роли кабинета, сохранение выбора и соответствующую навигацию."
     },
     {
       "accepted_day": "2026-09-21",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-2d2c8c2314b7a9c1915a1c00",
       "work_unit_id": "u-8db081eb00febf0b17d19b5e",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -4665,11 +4665,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 49,
+          "added": 69,
           "deleted": 0,
-          "churn": 49,
-          "net": 49,
-          "known_added": 49,
+          "churn": 69,
+          "net": 69,
+          "known_added": 69,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -4685,27 +4685,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 3
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовить контейнер для запуска приложения."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-b10ccd5c6054bb38ca99b219",
       "work_unit_id": "u-402708214414f60e75ca5bac",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -4777,17 +4777,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлен контракт просмотра и изменения позиций сметы с числовыми ограничениями и общим итогом."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-85b840f77224d69e4504347f",
       "work_unit_id": "u-4df271c172b3809f06cae97a",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -4859,17 +4859,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "В список каталога добавлены число предложений и примеры товаров и услуг с разным наличием."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-2006b8ea0b61904f362e1dc0",
       "work_unit_id": "u-42e3095dd537e8bdc9c3321f",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -4941,17 +4941,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены контракты корзины и заказов с группировкой по поставщикам, датами услуг и переходами подзаказов."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-db7339f0700cadf0f1f0ce59",
       "work_unit_id": "u-a6bd40cacc5a6ac3cd43fdfe",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -5023,17 +5023,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовлены версии пакетов и документация выпуска контрактов сметы и каталога."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-4ba0e524ad2a039336cf3956",
       "work_unit_id": "u-a394a60cf874363421afb948",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -5105,17 +5105,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнить доступное название группы переключателя ролей."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-b91e7cd9e29c03a41e6f3fd8",
       "work_unit_id": "u-7d2458cb82749995331443dd",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -5187,17 +5187,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить контракты и примеры данных каталога."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-ed4a0c7baf5fd1200ce6927b",
       "work_unit_id": "u-98d125b0ce0b1ffdb6dffb40",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -5269,17 +5269,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены расчёты корзины и заказов, разделение по поставщикам и правила статусов."
     },
     {
       "accepted_day": "2026-09-22",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-1dabd6324e0e0a46cf7e2f7e",
       "work_unit_id": "u-e66b96b6ef96b5be785b898f",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -5311,12 +5311,12 @@
           "unknown_files": 0
         },
         "documentation": {
-          "added": 342,
-          "deleted": 343,
-          "churn": 685,
-          "net": -1,
-          "known_added": 342,
-          "known_deleted": 343,
+          "added": 1519,
+          "deleted": 4373,
+          "churn": 5892,
+          "net": -2854,
+          "known_added": 1519,
+          "known_deleted": 4373,
           "complete": true,
           "unknown_files": 0
         },
@@ -5341,27 +5341,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Нормализация дерева категорий, вариантов и кодов типов товаров."
     },
     {
       "accepted_day": "2026-09-23",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-2b15d6ca0cdc62548763f36c",
       "work_unit_id": "u-cd5e59eebbdaa1ee6efb3f85",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -5433,17 +5433,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Контракт карточки каталога допускает отсутствие действующих предложений при открытии по прямой ссылке."
     },
     {
       "accepted_day": "2026-09-23",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-9b37aa525d036faad8354c54",
       "work_unit_id": "u-4b215ce0da0bcf427afca9aa",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -5515,17 +5515,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены согласованные примеры полной карточки товара и предложений с ценами и наличием."
     },
     {
       "accepted_day": "2026-09-23",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-93a8a52fd65c8b5c3c58001f",
       "work_unit_id": "u-2f595a1fc5f682deba7fda63",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -5597,17 +5597,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить карточку товара с галереей, предложениями и связанными товарами."
     },
     {
       "accepted_day": "2026-09-23",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-c72e437a2fb0c3d863659a53",
       "work_unit_id": "u-7170f118d577b577e3a661a1",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -5679,17 +5679,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить управление предложениями поставщика, ценой и наличием."
     },
     {
       "accepted_day": "2026-09-23",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-137dbf9abe29009a4436b47a",
       "work_unit_id": "u-fe180254d08eff49a89182d6",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -5761,17 +5761,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Настроить демонстрационные данные для браузерных проверок."
     },
     {
       "accepted_day": "2026-09-23",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-73ed3fccaad5d976ecd25d5a",
       "work_unit_id": "u-aa2b24a58a1378e5a61f7eca",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -5843,17 +5843,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновлены проверки сборки и совместимость серверных зависимостей."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-50788d3d7e46052d250f82d8",
       "work_unit_id": "u-dff2a92a05392cae432f8437",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -5925,17 +5925,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлена автоматическая проверка согласованности примеров карточки и предложений каталога."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-354038b2a305fa466edc0169",
       "work_unit_id": "u-6b79d6d9267a38677b8eb001",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -6007,17 +6007,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовлены примеры состояний кабинета поставщика и проверки их согласованности с каталогом."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-8f666a10887abd68aa102db5",
       "work_unit_id": "u-ad6acd0fd4555f11e4edbe6a",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -6089,17 +6089,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнён контракт предложений поставщика: статус карточки и карточки без действующих предложений."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-dda64fb3275c05c6fa21b860",
       "work_unit_id": "u-6e4141a55e9ae51bf899653a",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -6171,17 +6171,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены прогресс этапов, краткие данные людей и согласованные примеры списка и паспорта объекта."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-75e055823f407098b405cd28",
       "work_unit_id": "u-d49439785a00e7c8013a3b1a",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6253,17 +6253,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить переход в каталог из подвала."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-7f3e86f9a43b886681906776",
       "work_unit_id": "u-ac1efdb5592f59882fb9d96f",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6335,17 +6335,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить контракты каталога и предложений."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-58776fa63b03d2b6d1ef51e3",
       "work_unit_id": "u-08fa28bef93c06e2e9390cf0",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6417,17 +6417,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить разные пустые состояния каталога и карточки и скелетоны предложений."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-ecb2cf39c09e58906ebf8663",
       "work_unit_id": "u-226d203c978c456dc447e097",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6499,17 +6499,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить проверку цены и компактность переключателя ролей."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-565bfafe2bc98ca321ed4b3a",
       "work_unit_id": "u-d6cc24b90e3f15687338bd02",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6581,17 +6581,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Объявлять загрузку каталога для экранных читалок и уточнить правила скелетонов."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-16a4797f0644bd4ddf12b092",
       "work_unit_id": "u-d5e81046f6012d11e2f6bb00",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6663,17 +6663,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Увеличить кнопку повторной загрузки и убрать противоречивый статус ошибки."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-63682feeaa99c733a064a624",
       "work_unit_id": "u-00b591cb354a5fef26433db6",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6715,12 +6715,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 54,
-          "deleted": 0,
-          "churn": 54,
-          "net": 54,
-          "known_added": 54,
-          "known_deleted": 0,
+          "added": 59,
+          "deleted": 1,
+          "churn": 60,
+          "net": 58,
+          "known_added": 59,
+          "known_deleted": 1,
           "complete": true,
           "unknown_files": 0
         },
@@ -6735,27 +6735,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить сборку контейнерного образа приложения."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-feec1b1d77d44811dd841824",
       "work_unit_id": "u-1646527fb948f77bbf998676",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6827,17 +6827,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить демонстрационные данные кабинета."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-87672234afb107a114cbabb7",
       "work_unit_id": "u-9b4bc7bfb32d2d87c2ce089e",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -6909,17 +6909,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Показывать статус карточки в предложениях поставщика."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-8ab124fb50a73a0a8975e6fa",
       "work_unit_id": "u-db4622771298d5eee574e0b9",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -6961,12 +6961,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 206,
-          "deleted": 0,
-          "churn": 206,
-          "net": 206,
-          "known_added": 206,
-          "known_deleted": 0,
+          "added": 238,
+          "deleted": 4,
+          "churn": 242,
+          "net": 234,
+          "known_added": 238,
+          "known_deleted": 4,
           "complete": true,
           "unknown_files": 0
         },
@@ -6981,27 +6981,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 4
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовлен контейнерный запуск серверного приложения, базы данных и фоновых задач."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-f03b389b241f0d6fc51aaaa2",
       "work_unit_id": "u-113f5163d90f8ac8d161c05a",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -7073,17 +7073,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлена сборка и публикация серверного контейнерного образа через CI."
     },
     {
       "accepted_day": "2026-09-24",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-2887406d3ecac1420b7719d3",
       "work_unit_id": "u-91af87affd957684a0600ae2",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -7155,17 +7155,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнены данные каталога, предложений, импорта, платежей и возвратов."
     },
     {
       "accepted_day": "2026-09-25",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-510d119a2956871e640fa09c",
       "work_unit_id": "u-42603359df56af0ee0638688",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -7237,12 +7237,12 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовлены примеры сохранения и завершения сессии для мока."
     },
     {
       "accepted_day": "2026-09-25",
-      "status": "repeat_pending",
-      "classification": "repeat_pending",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -7259,14 +7259,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 10018,
+          "added": 10043,
+          "deleted": 24,
+          "churn": 10067,
+          "net": 10019,
+          "known_added": 10043,
           "known_deleted": 24,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 5034,
@@ -7289,11 +7289,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 122,
+          "added": 149,
           "deleted": 7,
-          "churn": 129,
-          "net": 115,
-          "known_added": 122,
+          "churn": 156,
+          "net": 142,
+          "known_added": 149,
           "known_deleted": 7,
           "complete": true,
           "unknown_files": 0
@@ -7309,14 +7309,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 13
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": null
@@ -7326,10 +7326,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-de762dc5d61cdba195df8faf",
       "work_unit_id": "u-e7fc4b3cd2735d6012132b51",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -7371,11 +7371,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 25,
+          "added": 26,
           "deleted": 0,
-          "churn": 25,
-          "net": 25,
-          "known_added": 25,
+          "churn": 26,
+          "net": 26,
+          "known_added": 26,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -7391,22 +7391,22 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Автоматизировать обновление приложения после релиза."
     },
     {
       "accepted_day": "2026-09-25",
-      "status": "repeat_pending",
-      "classification": "repeat_pending",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -7453,11 +7453,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 25,
+          "added": 26,
           "deleted": 0,
-          "churn": 25,
-          "net": 25,
-          "known_added": 25,
+          "churn": 26,
+          "net": 26,
+          "known_added": 26,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -7473,14 +7473,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": null
@@ -7490,10 +7490,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-c07bdc5c167017900b94aed8",
       "work_unit_id": "u-af4cbee4fe0ee1d23441cfb7",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -7535,11 +7535,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 40,
+          "added": 52,
           "deleted": 5,
-          "churn": 45,
-          "net": 35,
-          "known_added": 40,
+          "churn": 57,
+          "net": 47,
+          "known_added": 52,
           "known_deleted": 5,
           "complete": true,
           "unknown_files": 0
@@ -7555,27 +7555,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовить отдельное тестовое окружение."
     },
     {
       "accepted_day": "2026-09-25",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-85508f6c2965e0f9670f6703",
       "work_unit_id": "u-b62ee92a1e620403a7de5714",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -7617,11 +7617,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 46,
+          "added": 56,
           "deleted": 8,
-          "churn": 54,
-          "net": 38,
-          "known_added": 46,
+          "churn": 64,
+          "net": 48,
+          "known_added": 56,
           "known_deleted": 8,
           "complete": true,
           "unknown_files": 0
@@ -7637,27 +7637,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подключить демонстрационный API в тестовом окружении."
     },
     {
       "accepted_day": "2026-09-25",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-01683dbbfba4170c33be25d4",
       "work_unit_id": "u-c299d5725db183066bb67e28",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -7729,17 +7729,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить дублирование и исчезновение предложений при загрузке и правках."
     },
     {
       "accepted_day": "2026-09-25",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-3617f7f76022ea7841ccb755",
       "work_unit_id": "u-4bfecc3359e1b83749371e9e",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -7811,17 +7811,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить демонстрационную сессию приложения."
     },
     {
       "accepted_day": "2026-09-26",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-9ccb32988d73490fdd5d701d",
       "work_unit_id": "u-966159db4e5ffe50c149ba56",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -7893,17 +7893,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Расширены управление этапами, права доступа, расчёт смет и обработка файлов объектов."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-713f2ea26cc50904a00e03d7",
       "work_unit_id": "u-88f3bea05626cad18d2f20ca",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -7975,17 +7975,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлены контракты кабинета производителя, его товаров и заявок на загрузку каталога."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-66355ca4402fe3cd5148a973",
       "work_unit_id": "u-df057475a9fc6f754b879f63",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -8057,17 +8057,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить поиск карточек и создание предложения поставщика из каталога."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-16a72fa98b3d636e0476f275",
       "work_unit_id": "u-cd91012c41b00309946f8b6b",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -8139,17 +8139,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить создание, редактирование и просмотр карточек поставщика с фотографиями."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-7970239c297c03395b54be29",
       "work_unit_id": "u-f40e0d63496fc0b50e64ef35",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -8221,17 +8221,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подключить операции и подписи роли производителя."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-75570dcc88bf94d54c0233d5",
       "work_unit_id": "u-f87bd97c1971e7c5871234fc",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -8273,11 +8273,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
+          "added": 13,
           "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
+          "churn": 13,
+          "net": 13,
+          "known_added": 13,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -8293,27 +8293,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлена фоновая отправка писем регистрации и восстановления пароля с повтором при временных ошибках."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-2268cf1bbac659e16c0d3e59",
       "work_unit_id": "u-cc4f430a8da3af34a55c0476",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -8385,17 +8385,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправлена загрузка данных профиля при формировании сессии после регистрации."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-5eb258c879acd4329752e744",
       "work_unit_id": "u-36e4c4038028b20b8878d77d",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -8467,17 +8467,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовлены миграции полной схемы данных и проверки обновления с сохранением существующих данных."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-cab78824a09dc5e7fca1ca93",
       "work_unit_id": "u-d561b80e0c55bd3d1a6dcf49",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -8549,17 +8549,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Усилены правила использования токенов, отзыва сессий и повторной отправки подтверждения почты."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-1f0542556f281f400a81a7ac",
       "work_unit_id": "u-899c9f4856e5f73ae61cd845",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -8601,12 +8601,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 68,
-          "deleted": 9,
-          "churn": 77,
-          "net": 59,
-          "known_added": 68,
-          "known_deleted": 9,
+          "added": 160,
+          "deleted": 11,
+          "churn": 171,
+          "net": 149,
+          "known_added": 160,
+          "known_deleted": 11,
           "complete": true,
           "unknown_files": 0
         },
@@ -8621,22 +8621,22 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 7
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подготовлены раздельные окружения сервера, проверки развёртывания, резервное копирование и маршрутизация API."
     },
     {
       "accepted_day": "2026-09-28",
-      "status": "repeat_pending",
-      "classification": "repeat_pending",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -8683,12 +8683,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 341,
-          "deleted": 1,
-          "churn": 342,
-          "net": 340,
-          "known_added": 341,
-          "known_deleted": 1,
+          "added": 502,
+          "deleted": 2,
+          "churn": 504,
+          "net": 500,
+          "known_added": 502,
+          "known_deleted": 2,
           "complete": true,
           "unknown_files": 0
         },
@@ -8703,14 +8703,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 9
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": null
@@ -8720,10 +8720,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-127c461726b600c5cd8cdb96",
       "work_unit_id": "u-2dd10eab43aab09af7c456b3",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -8795,17 +8795,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Протокол решений встреч и навигация по ним."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-d29486e7707fefb7a3b4fcf7",
       "work_unit_id": "u-200b724e6bb457e9e761b540",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -8847,11 +8847,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
+          "added": 5,
           "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
+          "churn": 5,
+          "net": 5,
+          "known_added": 5,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -8867,27 +8867,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Модель производителя, групп пользователей и вариантов каталога."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-54a376bbb6bd8643ab150381",
       "work_unit_id": "u-9a92717ea5bcf3bf0e614b77",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -8959,17 +8959,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Документы кабинетов и разбор ближайшего и будущего объёма."
     },
     {
       "accepted_day": "2026-09-28",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-1f4931bb530b04519f12bd9d",
       "work_unit_id": "u-1367d3e11ecf065247e83e97",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -9041,17 +9041,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Отделение принятых решений интерфейса от вопросов исполнителям."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-ba395137cb907e9ea296a5b5",
       "work_unit_id": "u-51cb81a92ad604d350f0b18c",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -9123,17 +9123,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправлены примеры ошибок и согласованы данные сметы, этапов и категорий для мока."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-32801509aaa7da0dc21d3210",
       "work_unit_id": "u-a170374e0350c32577845d6d",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -9205,17 +9205,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлен контракт списка производителей с поиском, пагинацией и устойчивой сортировкой."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-1015be55b5883d61b25eafb9",
       "work_unit_id": "u-94fadab6897150fec373681b",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -9287,17 +9287,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Списки карточек дополнены артикулами и статусом собственного предложения поставщика."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-d833fa53267030aa5f9de3d8",
       "work_unit_id": "u-c4d60658db0a1e14f6f9fce1",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -9369,17 +9369,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновлены примеры справочника категорий и согласованы пути категорий в карточках."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-9bf65cc0715a9762486e4535",
       "work_unit_id": "u-888deff7be64e7d61be66a70",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -9451,17 +9451,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлено воспроизводимое построение полного примера справочника категорий."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-209f0ba7d0919aad8dad9148",
       "work_unit_id": "u-26c1cd71e433e9473d23f75b",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -9533,17 +9533,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить кабинет производителя с товарами, профилем и заявкой на загрузку каталога."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-75d078ccc310abd7a89c5279",
       "work_unit_id": "u-1ce15036a7513c03a903d0ec",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -9615,17 +9615,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить публичную страницу производителя с контактами и товарами."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-579fc9115945d4c49dfdf82c",
       "work_unit_id": "u-27d7b1feecfe9fc848f2ea85",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -9687,27 +9687,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить паспорт объекта с участниками, файлами, этапами и сметой."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-0cf0acc50433b811c75c31a8",
       "work_unit_id": "u-9724d9a2cc484bd64b483407",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -9779,17 +9779,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Усилить проверку обновления сессии при одновременных запросах."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-ba5e2b6be090d45f9827a4ff",
       "work_unit_id": "u-57272494395e9eb93d060bfd",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -9831,12 +9831,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
-          "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
-          "known_deleted": 0,
+          "added": 19,
+          "deleted": 14,
+          "churn": 33,
+          "net": 5,
+          "known_added": 19,
+          "known_deleted": 14,
           "complete": true,
           "unknown_files": 0
         },
@@ -9851,27 +9851,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 3
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Улучшить соединения приложения и маршрутизацию API."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-82778eb14a0d4fc04d239e66",
       "work_unit_id": "u-cc0d5f0d161e88b003284ccb",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -9943,17 +9943,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнить пустое состояние каталога и пользовательские сообщения об ошибках."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-b33840d85f95f8b9d140200b",
       "work_unit_id": "u-ffa75a794cc694d27ff124df",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10025,12 +10025,12 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Убрать дублирование общей обработки ошибок."
     },
     {
       "accepted_day": "2026-09-30",
-      "status": "repeat_pending",
-      "classification": "repeat_pending",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -10077,12 +10077,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 87,
-          "deleted": 14,
-          "churn": 101,
-          "net": 73,
-          "known_added": 87,
-          "known_deleted": 14,
+          "added": 117,
+          "deleted": 17,
+          "churn": 134,
+          "net": 100,
+          "known_added": 117,
+          "known_deleted": 17,
           "complete": true,
           "unknown_files": 0
         },
@@ -10097,14 +10097,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 6
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": null
@@ -10114,10 +10114,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-8a0668f22ccd85a42afa0a1a",
       "work_unit_id": "u-ff8371ed27100300056e6c69",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10189,17 +10189,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить контракты и обработку заявки на загрузку каталога."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-b7520297c0fec14921ec7ed4",
       "work_unit_id": "u-f41be079ac82c14eb60a8608",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10271,17 +10271,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Расширить кабинет и добавить сворачиваемое меню с сохранением выбора."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-43a83f77a5f4d0f20c4196ca",
       "work_unit_id": "u-71b3384cb2dd1d01bc9a9047",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10353,17 +10353,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Показывать в дереве категорий только детей выбранного родителя."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-c3ad85324b6f8f0cd5a916a1",
       "work_unit_id": "u-76a635e0c5876d51c6ffca39",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10435,17 +10435,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Сворачивать выбранную категорию повторным нажатием и обновить примеры контрактов."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-4537429ecc9e5935e0e98ad3",
       "work_unit_id": "u-d2e48a9c0e410e2ee8177bc0",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10517,17 +10517,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Стабилизировать асинхронные проверки и инструменты разработки."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-99ff70f9670e51619f1ce5f2",
       "work_unit_id": "u-265623ab670c0cc35426ec69",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10599,17 +10599,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Сократить повторную отрисовку карточек поставщика."
     },
     {
       "accepted_day": "2026-09-30",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-4ee60d3a3246dfd8223e6ad3",
       "work_unit_id": "u-e81cfb83b7c68d6f12459d0e",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -10641,12 +10641,12 @@
           "unknown_files": 0
         },
         "documentation": {
-          "added": 41,
-          "deleted": 22,
-          "churn": 63,
-          "net": 19,
-          "known_added": 41,
-          "known_deleted": 22,
+          "added": 759,
+          "deleted": 1199,
+          "churn": 1958,
+          "net": -440,
+          "known_added": 759,
+          "known_deleted": 1199,
           "complete": true,
           "unknown_files": 0
         },
@@ -10671,27 +10671,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Новый справочник категорий по структуре виджетов."
     },
     {
       "accepted_day": "2026-10-01",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-ea60523da6bab8d0eaec76bc",
       "work_unit_id": "u-340e4bf309babf88629558f9",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -10763,17 +10763,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Справочник категорий дополнен группой и категориями для товарных каталогов."
     },
     {
       "accepted_day": "2026-10-01",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-37cd3a697517f09afa603fa8",
       "work_unit_id": "u-b8ba55dcf46f1a9a4c1d7726",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10845,17 +10845,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Различать отсутствие предложений и отсутствие товара в наличии."
     },
     {
       "accepted_day": "2026-10-01",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-b317a297a1bd7908e455517d",
       "work_unit_id": "u-fc14df3fa27c8b48d3d9b157",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -10927,17 +10927,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить показ пароля и маску телефона в общих формах."
     },
     {
       "accepted_day": "2026-10-01",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-49f40ccc514e9f08e7a62bc3",
       "work_unit_id": "u-565970d6df1c490afec34718",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11009,17 +11009,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Сохранять положение меню при восстановлении сессии."
     },
     {
       "accepted_day": "2026-10-01",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-d7368c8c040edc6e15ed49ab",
       "work_unit_id": "u-c7f5dd5622513b7068a64b75",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11091,17 +11091,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Стабилизировать проверки списка карточек."
     },
     {
       "accepted_day": "2026-10-01",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-72339b389c3e123536b97c01",
       "work_unit_id": "u-fdc3e441683540c672e8c66c",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -11173,17 +11173,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправлена ссылка подтверждения почты в текстовой и HTML-версиях письма."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-b3c014112137468d780a6770",
       "work_unit_id": "u-d28f836d5bd94888ed125b96",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -11255,17 +11255,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Описаны управление каталогом, варианты товаров, импорт с отчётами и откат с сохранением последующих изменений."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-67c9df2841aeedaa2fe993a0",
       "work_unit_id": "u-c4c3a5e0388308b694821845",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11337,17 +11337,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить склонение количества товаров и поставщиков."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-bb88579668e51936e62c58a1",
       "work_unit_id": "u-e258ae3989e8dd2f600eb29c",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11419,17 +11419,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Форматировать контактные телефоны в профиле производителя."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-6b69e257c413f4cccf4a3e0f",
       "work_unit_id": "u-a4b291c79fa28224f40bfc4b",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11441,14 +11441,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 1380,
+          "added": 1417,
+          "deleted": 319,
+          "churn": 1736,
+          "net": 1098,
+          "known_added": 1417,
           "known_deleted": 319,
-          "complete": false,
-          "unknown_files": 1
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 1525,
@@ -11471,12 +11471,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 48,
-          "deleted": 45,
-          "churn": 93,
-          "net": 3,
-          "known_added": 48,
-          "known_deleted": 45,
+          "added": 52,
+          "deleted": 46,
+          "churn": 98,
+          "net": 6,
+          "known_added": 52,
+          "known_deleted": 46,
           "complete": true,
           "unknown_files": 0
         },
@@ -11491,27 +11491,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 28
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить главную страницу и поддержку вариантов товара."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-01b7497d6fd707d7ed71b7ce",
       "work_unit_id": "u-4004a735a35917823d3b4a83",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11523,14 +11523,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 319,
+          "deleted": 1417,
+          "churn": 1736,
+          "net": -1098,
           "known_added": 319,
-          "known_deleted": 1380,
-          "complete": false,
-          "unknown_files": 1
+          "known_deleted": 1417,
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 206,
@@ -11553,12 +11553,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 45,
-          "deleted": 48,
-          "churn": 93,
-          "net": -3,
-          "known_added": 45,
-          "known_deleted": 48,
+          "added": 46,
+          "deleted": 52,
+          "churn": 98,
+          "net": -6,
+          "known_added": 46,
+          "known_deleted": 52,
           "complete": true,
           "unknown_files": 0
         },
@@ -11573,27 +11573,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 28
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Вернуть предыдущую версию главной страницы и настроек приложения."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-f6e31ce6bbdfd3752d465f28",
       "work_unit_id": "u-f34ee01b22d3e5ed0169c468",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -11605,42 +11605,42 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 1380,
-          "known_deleted": 319,
-          "complete": false,
-          "unknown_files": 1
+          "added": 1,
+          "deleted": 1,
+          "churn": 2,
+          "net": 0,
+          "known_added": 1,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
-          "added": 1526,
-          "deleted": 207,
-          "churn": 1733,
-          "net": 1319,
-          "known_added": 1526,
-          "known_deleted": 207,
+          "added": 1,
+          "deleted": 1,
+          "churn": 2,
+          "net": 0,
+          "known_added": 1,
+          "known_deleted": 1,
           "complete": true,
           "unknown_files": 0
         },
         "documentation": {
-          "added": 21,
-          "deleted": 9,
-          "churn": 30,
-          "net": 12,
-          "known_added": 21,
-          "known_deleted": 9,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
         },
         "configuration": {
-          "added": 48,
-          "deleted": 45,
-          "churn": 93,
-          "net": 3,
-          "known_added": 48,
-          "known_deleted": 45,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
         },
@@ -11655,22 +11655,22 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 29
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнить локальные настройки проверок проекта."
     },
     {
       "accepted_day": "2026-10-02",
-      "status": "new",
-      "classification": "new",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -11754,10 +11754,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-1db1405d06591d7da7afcf79",
       "work_unit_id": "u-9906eddf2672e3875f015e44",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -11829,17 +11829,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "В CI добавлена проверка жизненного цикла авторизации на отдельной базе данных."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-51838b92d69fe94bd255ab51",
       "work_unit_id": "u-b5a3b3963b0c3d5af5a93298",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -11911,17 +11911,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавлена изолированная проверка восстановления резервной копии базы данных."
     },
     {
       "accepted_day": "2026-10-02",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-0efd48934e9f19ccbc0aa8d5",
       "work_unit_id": "u-e455fef7a3c872d1b47e5a63",
       "project_id": "r-916a3bd16a762f4dab0de7ec",
@@ -11993,17 +11993,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновлены русские инструкции локального запуска, развёртывания и проверок сервера."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-8727cbdeeda37505a360b8b3",
       "work_unit_id": "u-9f185fb33e66e4a7220b250c",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -12075,17 +12075,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Уточнены примеры ошибок и контракт фильтра товаров производителя по наличию предложений."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-10d044afa20dd08e1c57072f",
       "work_unit_id": "u-42220d6e3bf252b3d519aeb3",
       "project_id": "r-e688293df5ab55141ccd74a4",
@@ -12157,17 +12157,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Согласованы версии пакетов и документация нового выпуска контрактов."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-7948579096eb940b9f104eb2",
       "work_unit_id": "u-bc9d9a41fc0f76f183a802b8",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12239,17 +12239,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить публичный список производителей с поиском и адаптивной пагинацией."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-24e643a235dad3942396ec19",
       "work_unit_id": "u-d56b523566a25d8ae41bec3a",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12321,17 +12321,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить страницу неизвестного адреса с русским текстом и полезными ссылками."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-9e0b76115a05a60c049ec0dd",
       "work_unit_id": "u-a81046d7bd542b083423dafb",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12393,22 +12393,22 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 15
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Подключить действия главной, меню категорий и раскрытие процессов."
     },
     {
       "accepted_day": "2026-10-03",
-      "status": "repeat_pending",
-      "classification": "repeat_pending",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -12425,14 +12425,14 @@
       ],
       "categories": {
         "code": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 3043,
-          "known_deleted": 436,
-          "complete": false,
-          "unknown_files": 1
+          "added": 3081,
+          "deleted": 437,
+          "churn": 3518,
+          "net": 2644,
+          "known_added": 3081,
+          "known_deleted": 437,
+          "complete": true,
+          "unknown_files": 0
         },
         "tests": {
           "added": 3573,
@@ -12455,12 +12455,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 50,
-          "deleted": 46,
-          "churn": 96,
-          "net": 4,
-          "known_added": 50,
-          "known_deleted": 46,
+          "added": 54,
+          "deleted": 47,
+          "churn": 101,
+          "net": 7,
+          "known_added": 54,
+          "known_deleted": 47,
           "complete": true,
           "unknown_files": 0
         },
@@ -12475,14 +12475,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 14
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": null
@@ -12492,10 +12492,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-1d5f064ce8017be4132ef110",
       "work_unit_id": "u-ad7c34715f8aee91553419ef",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12537,12 +12537,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
-          "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
-          "known_deleted": 0,
+          "added": 11,
+          "deleted": 1,
+          "churn": 12,
+          "net": 10,
+          "known_added": 11,
+          "known_deleted": 1,
           "complete": true,
           "unknown_files": 0
         },
@@ -12557,27 +12557,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 2
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Повысить стабильность тестового окружения."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-9fd031d90d9af3fcf4635042",
       "work_unit_id": "u-097b7c6510a005ef811bdefe",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12649,17 +12649,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Исправить отображение страницы неизвестного адреса."
     },
     {
       "accepted_day": "2026-10-03",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-6c45007f2a96f3b6f4d45946",
       "work_unit_id": "u-df5bb88543fb6b634a3fc58d",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12701,11 +12701,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
+          "added": 29,
           "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
+          "churn": 29,
+          "net": 29,
+          "known_added": 29,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -12721,22 +12721,22 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 3
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Разделить лендинг и платформу с согласованными переходами."
     },
     {
       "accepted_day": "2026-10-03",
-      "status": "repeat_pending",
-      "classification": "repeat_pending",
+      "status": "repeat",
+      "classification": "repeat",
       "source_available": true,
       "sp_neural_ticks": null,
       "sp_selected_ticks": null,
@@ -12783,12 +12783,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
-          "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
-          "known_deleted": 0,
+          "added": 40,
+          "deleted": 1,
+          "churn": 41,
+          "net": 39,
+          "known_added": 40,
+          "known_deleted": 1,
           "complete": true,
           "unknown_files": 0
         },
@@ -12803,14 +12803,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 5
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": null
@@ -12820,10 +12820,10 @@
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "high",
       "mr_key": "m-7acd74de0a24caff77016c96",
       "work_unit_id": "u-d28e8895e5ea0067e416f5ed",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12895,17 +12895,17 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Обновить контракты с дополнительным фильтром товаров."
     },
     {
       "accepted_day": "2026-10-04",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-e9ab97c6a49814e0ee9570ea",
       "work_unit_id": "u-5d87f2aa903e2d0292ba5114",
       "project_id": "r-5f6b805554b0de491c5f80c4",
@@ -12947,11 +12947,11 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 1,
+          "added": 58,
           "deleted": 0,
-          "churn": 1,
-          "net": 1,
-          "known_added": 1,
+          "churn": 58,
+          "net": 58,
+          "known_added": 58,
           "known_deleted": 0,
           "complete": true,
           "unknown_files": 0
@@ -12967,27 +12967,27 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 7
+          "complete": true,
+          "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Добавить список и создание объектов, ускорить публичные экраны и улучшить поиск."
     },
     {
       "accepted_day": "2026-10-04",
       "status": "new",
       "classification": "new",
       "source_available": true,
-      "sp_neural_ticks": null,
-      "sp_selected_ticks": null,
-      "selected_source": "missing",
-      "confidence": null,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
       "mr_key": "m-ba34b6da4faa5822c208a071",
       "work_unit_id": "u-607dc8c3715fdea822f8ba20",
       "project_id": "r-4e3f231c6a52611f7f2884e8",
@@ -13019,14 +13019,14 @@
           "unknown_files": 0
         },
         "documentation": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
-          "known_added": 319,
-          "known_deleted": 24,
-          "complete": false,
-          "unknown_files": 2
+          "added": 4447,
+          "deleted": 4123,
+          "churn": 8570,
+          "net": 324,
+          "known_added": 4447,
+          "known_deleted": 4123,
+          "complete": true,
+          "unknown_files": 0
         },
         "configuration": {
           "added": 0,
@@ -13059,7 +13059,7 @@
           "unknown_files": 0
         }
       },
-      "summary": null
+      "summary": "Актуализация требований, архивов, протокола встречи и правил планирования задач."
     },
     {
       "accepted_day": "2026-10-05",
@@ -13603,12 +13603,12 @@
           "unknown_files": 0
         },
         "configuration": {
-          "added": 0,
-          "deleted": 0,
-          "churn": 0,
-          "net": 0,
-          "known_added": 0,
-          "known_deleted": 0,
+          "added": 23,
+          "deleted": 6,
+          "churn": 29,
+          "net": 17,
+          "known_added": 23,
+          "known_deleted": 6,
           "complete": true,
           "unknown_files": 0
         },
@@ -13623,14 +13623,14 @@
           "unknown_files": 0
         },
         "unsupported": {
-          "added": null,
-          "deleted": null,
-          "churn": null,
-          "net": null,
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
           "known_added": 0,
           "known_deleted": 0,
-          "complete": false,
-          "unknown_files": 4
+          "complete": true,
+          "unknown_files": 0
         }
       },
       "summary": "Настройка повторного использования соединений и WebSocket-маршрутов."
