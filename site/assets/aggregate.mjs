@@ -146,3 +146,15 @@ export function exportCsv(result, people, mode = 'neural') {
   lines.push(...result.daily.map((row) => line(row, 'Дневной итог', 'Итог выбранных участников')), line(result.totals, 'Итог периода', 'Итог выбранного периода'));
   return '\uFEFF' + [columns, ...lines].map((row) => row.map(escape).join(',')).join('\r\n') + '\r\n';
 }
+
+export function selectDashboard(data, filters) {
+  const selection = filters.selection ?? 'all';
+  const people = data.people.filter((person) => selection === 'all' || selection === `person:${person.person_id}` || selection === `group:${person.team ?? 'other'}`);
+  if (!people.length && selection !== 'all' && !['group:frontend', 'group:backend', 'group:other'].includes(selection)) throw new Error('Неизвестный исполнитель');
+  const person_ids = people.map((person) => person.person_id);
+  const result = aggregate(data, { ...filters, person_ids });
+  const projects = new Set(filters.project_ids ?? data.projects.map((project) => project.id));
+  const ids = new Set(person_ids);
+  const records = data.records.filter((row) => filters.from <= row.accepted_day && row.accepted_day <= filters.to && projects.has(row.project_id) && row.contributors.some((part) => ids.has(part.person_id)));
+  return { ...result, people, records: records.sort((a, b) => b.accepted_day.localeCompare(a.accepted_day) || (b.details?.iid ?? 0) - (a.details?.iid ?? 0) || a.mr_key.localeCompare(b.mr_key)) };
+}

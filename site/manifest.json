@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "source": "public build manifest",
-  "retrieved_at": "2026-10-07T21:19:43.126540+00:00",
+  "retrieved_at": "2026-10-16T22:17:27.323925+00:00",
   "files": {
-    "index.html": "8e3389d13b135381af81296a575e7a475d88ed90072c86c220cf3b83d57122cd",
-    "assets/aggregate.mjs": "ad184327934fc339403ca286ca0aa176c425c8c468a7e557b5525bc4d643b60e",
-    "assets/app.mjs": "a5e6d7ae1a0229f9108432c7d1c75a30f0eb421eeb39d56cf52d6223133becc0",
-    "assets/styles.css": "886c73a7ec71c0e7f7c42cbad897fb38dbb03f7f8f0bfda9386d2c940a2826ca",
-    "data/metrics.json": "ca67935d2e9e747a3fb2bc1a0513dcdf6599ebbb9b0a048f091f9695a509962b"
+    "index.html": "433a288ecd12e258acc2cf0a153bceea589c613929275d43196324c166b9bb27",
+    "assets/aggregate.mjs": "df21a282755e4ba42ff58b0679bdceb9edcb583828d72280e40cc19114cf16d9",
+    "assets/app.mjs": "b7f3e0e0a800c86dc01907e39f3881a242d8f2224aa53aac54ef5154ea9bb82c",
+    "assets/styles.css": "1e7e010fc4ce473123ff7a5c611cc8b87b85d1f207dfc1ba1a4dc2795a0cac7c",
+    "data/metrics.json": "090b05b51a1ac0b407b3e90f21e278057da90e2cc1a2395e06dbfa8a77a61e8a"
   }
 }
