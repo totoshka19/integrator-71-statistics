@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-10-16T22:17:27.161117+00:00",
+  "retrieved_at": "2026-10-19T07:16:21.856026+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-10-16T21:41:36.995247+00:00",
+  "source_updated_at": "2026-10-19T07:08:43.334789+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-10-16"
+    "to": "2026-10-18"
   },
   "people": [
     {
@@ -73,11 +73,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-18"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-16",
+        "to": "2026-10-18",
         "list_complete": true
       }
     },
@@ -98,11 +102,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-18"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-16",
+        "to": "2026-10-18",
         "list_complete": true
       }
     },
@@ -123,11 +131,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-18"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-16",
+        "to": "2026-10-18",
         "list_complete": true
       }
     },
@@ -148,11 +160,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-18"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-16",
+        "to": "2026-10-18",
         "list_complete": true
       }
     }
@@ -19776,6 +19792,816 @@
         "web_url": "https://gitlab.com/integrator-71/backend/-/merge_requests/40",
         "files_changed": 6,
         "files_known": 6
+      }
+    },
+    {
+      "accepted_day": "2026-10-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-f661ddfb89b3f09df4703c81",
+      "work_unit_id": "u-8bcc6faff5e130034b3c6053",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 265,
+          "deleted": 29,
+          "churn": 294,
+          "net": 236,
+          "known_added": 265,
+          "known_deleted": 29,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 328,
+          "deleted": 0,
+          "churn": 328,
+          "net": 328,
+          "known_added": 328,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Редактирование условий доставки и возврата предложений",
+      "details": {
+        "iid": 126,
+        "title": "feat: добавить редактирование условий доставки и возврата предложений",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/126",
+        "files_changed": 11,
+        "files_known": 11
+      }
+    },
+    {
+      "accepted_day": "2026-10-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-1cbd5f519afaf891eea83191",
+      "work_unit_id": "u-d15df003da0c966cebd2e998",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 345,
+          "deleted": 37,
+          "churn": 382,
+          "net": 308,
+          "known_added": 345,
+          "known_deleted": 37,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 396,
+          "deleted": 4,
+          "churn": 400,
+          "net": 392,
+          "known_added": 396,
+          "known_deleted": 4,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Массовое изменение наличия предложений с очередью и повтором ошибок",
+      "details": {
+        "iid": 127,
+        "title": "feat: добавить массовое изменение наличия предложений",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/127",
+        "files_changed": 8,
+        "files_known": 8
+      }
+    },
+    {
+      "accepted_day": "2026-10-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-fc4596d68d852d6b30160939",
+      "work_unit_id": "u-6ff097bbfbc5f84f5ed5d70a",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 62,
+          "deleted": 2,
+          "churn": 64,
+          "net": 60,
+          "known_added": 62,
+          "known_deleted": 2,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 297,
+          "deleted": 66,
+          "churn": 363,
+          "net": 231,
+          "known_added": 297,
+          "known_deleted": 66,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 1,
+          "deleted": 1,
+          "churn": 2,
+          "net": 0,
+          "known_added": 1,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Карточки на проверке и переходы в сводке поставщика",
+      "details": {
+        "iid": 128,
+        "title": "feat: добавить карточки на проверке в дашборд поставщика",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/128",
+        "files_changed": 10,
+        "files_known": 10
+      }
+    },
+    {
+      "accepted_day": "2026-10-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-c00e8589e9405f90a86aa94b",
+      "work_unit_id": "u-b0b7509df7c3efb74b86e94d",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 104,
+          "deleted": 46,
+          "churn": 150,
+          "net": 58,
+          "known_added": 104,
+          "known_deleted": 46,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 480,
+          "deleted": 78,
+          "churn": 558,
+          "net": 402,
+          "known_added": 480,
+          "known_deleted": 78,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 2,
+          "deleted": 0,
+          "churn": 2,
+          "net": 2,
+          "known_added": 2,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Массовое снятие и восстановление продажи предложений",
+      "details": {
+        "iid": 129,
+        "title": "feat: добавить массовое снятие и восстановление предложений",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/129",
+        "files_changed": 10,
+        "files_known": 10
+      }
+    },
+    {
+      "accepted_day": "2026-10-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "800000000",
+      "sp_selected_ticks": "800000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-cd45fd29ba8e10443358db2f",
+      "work_unit_id": "u-03ab8fd67787898c26ce482e",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 870,
+          "deleted": 22,
+          "churn": 892,
+          "net": 848,
+          "known_added": 870,
+          "known_deleted": 22,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 1539,
+          "deleted": 8,
+          "churn": 1547,
+          "net": 1531,
+          "known_added": 1539,
+          "known_deleted": 8,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 3,
+          "deleted": 1,
+          "churn": 4,
+          "net": 2,
+          "known_added": 3,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "CSV списков, процентное изменение цен и место в цепочке продаж",
+      "details": {
+        "iid": 130,
+        "title": "feat: доработать кабинет поставщика: цепочка продаж, CSV и цены",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/130",
+        "files_changed": 30,
+        "files_known": 30
+      }
+    },
+    {
+      "accepted_day": "2026-10-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-48bdaa799ed726f4996da047",
+      "work_unit_id": "u-4a8f45ca45724e9f7209796e",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 8,
+          "deleted": 0,
+          "churn": 8,
+          "net": 8,
+          "known_added": 8,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 157,
+          "deleted": 0,
+          "churn": 157,
+          "net": 157,
+          "known_added": 157,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 17,
+          "deleted": 1,
+          "churn": 18,
+          "net": 16,
+          "known_added": 17,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Скрытие чата при открытых диалогах и мобильном меню",
+      "details": {
+        "iid": 131,
+        "title": "fix: устранить перекрытие окон чатом и обновить README staging",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/131",
+        "files_changed": 3,
+        "files_known": 3
+      }
+    },
+    {
+      "accepted_day": "2026-10-18",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-0a48cb9e19db3e1c5cdd1a3c",
+      "work_unit_id": "u-b225cd6af9320b547681a2b7",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 2279,
+          "deleted": 529,
+          "churn": 2808,
+          "net": 1750,
+          "known_added": 2279,
+          "known_deleted": 529,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 4023,
+          "deleted": 45,
+          "churn": 4068,
+          "net": 3978,
+          "known_added": 4023,
+          "known_deleted": 45,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 5,
+          "deleted": 0,
+          "churn": 5,
+          "net": 5,
+          "known_added": 5,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Редактирование профиля, товаров и фотографий в кабинете производителя",
+      "details": {
+        "iid": 132,
+        "title": "feat: доработать кабинет производителя",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/132",
+        "files_changed": 47,
+        "files_known": 47
+      }
+    },
+    {
+      "accepted_day": "2026-10-18",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-d87f437e0e3e66d4e38e40f6",
+      "work_unit_id": "u-47d88e9b47c7dbc46c5f5d5d",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 5,
+          "deleted": 30,
+          "churn": 35,
+          "net": -25,
+          "known_added": 5,
+          "known_deleted": 30,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 252,
+          "deleted": 21,
+          "churn": 273,
+          "net": 231,
+          "known_added": 252,
+          "known_deleted": 21,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Общие счётчики карточек одним запросом и стабилизация проверок изображений",
+      "details": {
+        "iid": 133,
+        "title": "chore: использовать общие счётчики карточек и стабилизировать e2e",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/133",
+        "files_changed": 8,
+        "files_known": 8
+      }
+    },
+    {
+      "accepted_day": "2026-10-18",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-c8eb4165a0e03f14004c24ef",
+      "work_unit_id": "u-8bab6645b14d8300a70051a9",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 553,
+          "deleted": 407,
+          "churn": 960,
+          "net": 146,
+          "known_added": 553,
+          "known_deleted": 407,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 680,
+          "deleted": 32,
+          "churn": 712,
+          "net": 648,
+          "known_added": 680,
+          "known_deleted": 32,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 3,
+          "deleted": 0,
+          "churn": 3,
+          "net": 3,
+          "known_added": 3,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "CSV производителя, сводка опубликованных карточек и разделы профиля",
+      "details": {
+        "iid": 134,
+        "title": "feat: дополнить кабинеты производителя и поставщика",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/134",
+        "files_changed": 33,
+        "files_known": 33
       }
     }
   ]
