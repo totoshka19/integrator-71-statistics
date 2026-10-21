@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-10-19T07:16:21.856026+00:00",
+  "retrieved_at": "2026-10-21T07:30:47.648589+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-10-19T07:08:43.334789+00:00",
+  "source_updated_at": "2026-10-21T07:23:12.887907+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-10-18"
+    "to": "2026-10-20"
   },
   "people": [
     {
@@ -77,11 +77,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-18"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-20"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-18",
+        "to": "2026-10-20",
         "list_complete": true
       }
     },
@@ -106,11 +110,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-18"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-20"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-18",
+        "to": "2026-10-20",
         "list_complete": true
       }
     },
@@ -135,11 +143,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-18"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-20"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-18",
+        "to": "2026-10-20",
         "list_complete": true
       }
     },
@@ -164,11 +176,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-18"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-20"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-18",
+        "to": "2026-10-20",
         "list_complete": true
       }
     }
@@ -20602,6 +20618,456 @@
         "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/134",
         "files_changed": 33,
         "files_known": 33
+      }
+    },
+    {
+      "accepted_day": "2026-10-19",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-a56eba537feb8d9b8347541d",
+      "work_unit_id": "u-467b52bc6a872f0ac750152c",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 1888,
+          "deleted": 297,
+          "churn": 2185,
+          "net": 1591,
+          "known_added": 1888,
+          "known_deleted": 297,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 3836,
+          "deleted": 114,
+          "churn": 3950,
+          "net": 3722,
+          "known_added": 3836,
+          "known_deleted": 114,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Редактирование объектов, связанные товары услуг и полная пагинация кабинетов",
+      "details": {
+        "iid": 136,
+        "title": "feat: завершить доработки объектов, каталога и кабинетов MVP",
+        "module": "Авторизация",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/136",
+        "files_changed": 91,
+        "files_known": 91
+      }
+    },
+    {
+      "accepted_day": "2026-10-19",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-989bb0175d072833de6e1afc",
+      "work_unit_id": "u-ebe24527ae94985407dc172a",
+      "project_id": "r-916a3bd16a762f4dab0de7ec",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 31,
+          "deleted": 5,
+          "churn": 36,
+          "net": 26,
+          "known_added": 31,
+          "known_deleted": 5,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 36,
+          "deleted": 1,
+          "churn": 37,
+          "net": 35,
+          "known_added": 36,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 16,
+          "deleted": 0,
+          "churn": 16,
+          "net": 16,
+          "known_added": 16,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 10,
+          "deleted": 0,
+          "churn": 10,
+          "net": 10,
+          "known_added": 10,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Исправление чтения релиза contracts в автоматическом обновлении",
+      "details": {
+        "iid": 42,
+        "title": "fix(ci): исправить чтение contracts через CI_JOB_TOKEN",
+        "module": "Инфраструктура",
+        "web_url": "https://gitlab.com/integrator-71/backend/-/merge_requests/42",
+        "files_changed": 7,
+        "files_known": 7
+      }
+    },
+    {
+      "accepted_day": "2026-10-19",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "200000000",
+      "sp_selected_ticks": "200000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-84c664e27d877fc47046a06b",
+      "work_unit_id": "u-1fa58b47fe758785276eba6f",
+      "project_id": "r-916a3bd16a762f4dab0de7ec",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 4,
+          "deleted": 0,
+          "churn": 4,
+          "net": 4,
+          "known_added": 4,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 130,
+          "deleted": 0,
+          "churn": 130,
+          "net": 130,
+          "known_added": 130,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 14,
+          "deleted": 0,
+          "churn": 14,
+          "net": 14,
+          "known_added": 14,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 2,
+          "deleted": 2,
+          "churn": 4,
+          "net": 0,
+          "known_added": 2,
+          "known_deleted": 2,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Поиск и фильтр категории собственных карточек поставщика",
+      "details": {
+        "iid": 43,
+        "title": "feat(supplier): поиск и категории собственных карточек, contracts v0.16.0",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/backend/-/merge_requests/43",
+        "files_changed": 5,
+        "files_known": 5
+      }
+    },
+    {
+      "accepted_day": "2026-10-20",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-4ee119163fe575aaa4bf534e",
+      "work_unit_id": "u-5d08b843d8452f056bb0bf97",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 165,
+          "deleted": 10,
+          "churn": 175,
+          "net": 155,
+          "known_added": 165,
+          "known_deleted": 10,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 848,
+          "deleted": 6,
+          "churn": 854,
+          "net": 842,
+          "known_added": 848,
+          "known_deleted": 6,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 10,
+          "deleted": 1,
+          "churn": 11,
+          "net": 9,
+          "known_added": 10,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Публичная ссылка модели, навигация исполнителя и загрузка изображений",
+      "details": {
+        "iid": 137,
+        "title": "feat: добавить публичные ссылки производителя и объекты исполнителя",
+        "module": "Каталог",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/137",
+        "files_changed": 26,
+        "files_known": 26
+      }
+    },
+    {
+      "accepted_day": "2026-10-20",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-96459986258d03d34e9fed4b",
+      "work_unit_id": "u-436ce2ff6b3302eed161354f",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 50,
+          "deleted": 30,
+          "churn": 80,
+          "net": 20,
+          "known_added": 50,
+          "known_deleted": 30,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 505,
+          "deleted": 6,
+          "churn": 511,
+          "net": 499,
+          "known_added": 505,
+          "known_deleted": 6,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Сохранение черновиков сметы и исправление ошибок форм, цены и таблицы",
+      "details": {
+        "iid": 138,
+        "title": "fix: сохранить черновик сметы и перевести ошибку итога",
+        "module": "Паспорт объекта",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/138",
+        "files_changed": 14,
+        "files_known": 14
       }
     }
   ]
