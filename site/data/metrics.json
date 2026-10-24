@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-10-22T07:30:43.662177+00:00",
+  "retrieved_at": "2026-10-24T07:23:21.124799+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-10-22T07:22:05.495834+00:00",
+  "source_updated_at": "2026-10-24T07:17:08.538196+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-10-21"
+    "to": "2026-10-23"
   },
   "people": [
     {
@@ -85,11 +85,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-21"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-23"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-21",
+        "to": "2026-10-23",
         "list_complete": true
       }
     },
@@ -122,11 +126,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-21"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-23"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-21",
+        "to": "2026-10-23",
         "list_complete": true
       }
     },
@@ -159,11 +167,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-21"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-23"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-21",
+        "to": "2026-10-23",
         "list_complete": true
       }
     },
@@ -196,11 +208,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-10-21"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-10-23"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-10-21",
+        "to": "2026-10-23",
         "list_complete": true
       }
     }
@@ -21264,6 +21280,96 @@
         "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/139",
         "files_changed": 28,
         "files_known": 28
+      }
+    },
+    {
+      "accepted_day": "2026-10-22",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-d5ecf0b0f81bb92d1b05914c",
+      "work_unit_id": "u-25c0575bb490895bc116fefc",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-82b43d8c27002f9492a19949",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 5,
+          "deleted": 2,
+          "churn": 7,
+          "net": 3,
+          "known_added": 5,
+          "known_deleted": 2,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 434,
+          "deleted": 13,
+          "churn": 447,
+          "net": 421,
+          "known_added": 434,
+          "known_deleted": 13,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 11,
+          "deleted": 0,
+          "churn": 11,
+          "net": 11,
+          "known_added": 11,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Браузерные проверки профиля и ролей, исправление отображения после восстановления сессии",
+      "details": {
+        "iid": 140,
+        "title": "test: покрыть профиль и роли сценариями e2e",
+        "module": "frontend",
+        "web_url": "https://gitlab.com/integrator-71/frontend/-/merge_requests/140",
+        "files_changed": 9,
+        "files_known": 9
       }
     }
   ]
