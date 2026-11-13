@@ -236,7 +236,7 @@ function openModal(row, button) {
   if (details) display($('modal-files'), details.files_changed, details.files_known, false);
   else $('modal-files').textContent = '—';
   $('modal-note').textContent = `${statuses[row.status]}. ${stats.share < 10000n ? 'SP и строки показаны для выбранных исполнителей. ' : ''}Число файлов относится ко всему MR.${row.status === 'repeat' ? ' Повторный перенос не добавляет SP и строки к результату.' : ''}`;
-  const safeLink = details?.web_url && /^https:\/\/gitlab\.com\/[A-Za-z0-9_-]+(?:\/[A-Za-z0-9_.-]+)+\/-\/merge_requests\/[1-9][0-9]*$/.test(details.web_url);
+  const safeLink = details?.web_url && /^https:\/\/(?:gitlab\.com|gitlab\.icp7-1\.ru)\/[A-Za-z0-9_-]+(?:\/[A-Za-z0-9_.-]+)+\/-\/merge_requests\/[1-9][0-9]*$/.test(details.web_url);
   $('modal-link').hidden = !safeLink;
   if (safeLink) $('modal-link').href = details.web_url;
   else $('modal-link').removeAttribute('href');

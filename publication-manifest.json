@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0",
   "source": "public package manifest",
-  "retrieved_at": "2026-10-29T07:41:42.222117+00:00",
+  "retrieved_at": "2026-11-13T12:49:51.030244+00:00",
   "files": {
     ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
-    "README.md": "bbb0f89a60994c63ab975754d5e009410c564ad6419a014542f4013014742245",
+    "README.md": "25f44f0d9108e08834f2c058453e9d78db538eb48da014ee97f464b26415dc48",
     "site/index.html": "433a288ecd12e258acc2cf0a153bceea589c613929275d43196324c166b9bb27",
-    "site/manifest.json": "9f2541036a5e591530aeb5af45f0bff76f4328953f33bdf548cd22642b50636f",
+    "site/manifest.json": "5d86cee27b6c50f36954268bb3a7d1d49c79af1cac66759cec8a701561c3674a",
     ".github/workflows/pages.yml": "e1e555516b5aa5a42d38c0add4dd4d3297e8a83e8120dc1d60b93d5c27d150d8",
     "site/assets/aggregate.mjs": "df21a282755e4ba42ff58b0679bdceb9edcb583828d72280e40cc19114cf16d9",
-    "site/assets/app.mjs": "b7f3e0e0a800c86dc01907e39f3881a242d8f2224aa53aac54ef5154ea9bb82c",
+    "site/assets/app.mjs": "792d6ef74263369d2834698ba9c33c8e4ceeba7fc23e1a6982851e6058d7ad57",
     "site/assets/styles.css": "1e7e010fc4ce473123ff7a5c611cc8b87b85d1f207dfc1ba1a4dc2795a0cac7c",
-    "site/data/metrics.json": "d5b890a12a604e54f6a9033e0f027a69517c1e727f82e489f73e8a248d67fb3c"
+    "site/data/metrics.json": "49be2b09115f1d062610a2b4592f0f9d021874f6149b6ab18e55d4407585c8a3"
   }
 }
