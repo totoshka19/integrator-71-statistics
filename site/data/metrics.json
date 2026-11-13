@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-11-13T12:48:22.316443+00:00",
+  "retrieved_at": "2026-11-13T13:00:53.168833+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
@@ -25,10 +25,6 @@
       "person_id": "p-82b43d8c27002f9492a19949",
       "name": "Фахридин",
       "team": "frontend"
-    },
-    {
-      "person_id": "p-3d45a4127c44ce54d0758628",
-      "name": "Неизвестный участник 3d45a412"
     },
     {
       "person_id": "p-c1a3669084c4d11c1382ca87",
@@ -21384,7 +21380,7 @@
       "project_id": "r-5f6b805554b0de491c5f80c4",
       "contributors": [
         {
-          "person_id": "p-3d45a4127c44ce54d0758628",
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
           "share_bp": 10000
         }
       ],
@@ -21450,7 +21446,7 @@
           "unknown_files": 0
         }
       },
-      "summary": "CI и Registry для staging на рабочем GitLab",
+      "summary": "CI и Registry для staging на рабочем GitLab Выполнено Резо из-под учётной записи администратора.",
       "details": {
         "iid": 140,
         "title": "ci: подготовить staging на self-hosted GitLab",
@@ -21474,7 +21470,7 @@
       "project_id": "r-5f6b805554b0de491c5f80c4",
       "contributors": [
         {
-          "person_id": "p-3d45a4127c44ce54d0758628",
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
           "share_bp": 10000
         }
       ],
@@ -21540,7 +21536,7 @@
           "unknown_files": 0
         }
       },
-      "summary": "Повторный перенос ранее принятых фильтров карточек поставщика",
+      "summary": "Повторный перенос ранее принятых фильтров карточек поставщика Выполнено Резо из-под учётной записи администратора.",
       "details": {
         "iid": 142,
         "title": "ci: досинхронизировать frontend перед переключением staging",
@@ -21654,7 +21650,7 @@
       "project_id": "r-5f6b805554b0de491c5f80c4",
       "contributors": [
         {
-          "person_id": "p-3d45a4127c44ce54d0758628",
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
           "share_bp": 10000
         }
       ],
@@ -21720,7 +21716,7 @@
           "unknown_files": 0
         }
       },
-      "summary": "Синхронизация повторной операции с фотографией",
+      "summary": "Синхронизация повторной операции с фотографией Выполнено Резо из-под учётной записи администратора.",
       "details": {
         "iid": 143,
         "title": "test: синхронизировать повтор фото с обновлением карточки",
@@ -22014,7 +22010,7 @@
       "project_id": "r-e688293df5ab55141ccd74a4",
       "contributors": [
         {
-          "person_id": "p-3d45a4127c44ce54d0758628",
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
           "share_bp": 10000
         }
       ],
@@ -22080,7 +22076,7 @@
           "unknown_files": 0
         }
       },
-      "summary": "Выпуск npm и Python в рабочем GitLab",
+      "summary": "Выпуск npm и Python в рабочем GitLab Выполнено Резо из-под учётной записи администратора.",
       "details": {
         "iid": 39,
         "title": "ci: восстановить автотеги и публикацию npm/Python на новом GitLab",
@@ -22284,7 +22280,7 @@
       "project_id": "r-916a3bd16a762f4dab0de7ec",
       "contributors": [
         {
-          "person_id": "p-3d45a4127c44ce54d0758628",
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
           "share_bp": 10000
         }
       ],
@@ -22350,7 +22346,7 @@
           "unknown_files": 0
         }
       },
-      "summary": "CI и сборка backend для staging нового GitLab",
+      "summary": "CI и сборка backend для staging нового GitLab Выполнено Резо из-под учётной записи администратора.",
       "details": {
         "iid": 44,
         "title": "ci: backend staging на новом GitLab с Kaniko и ручным deploy",
