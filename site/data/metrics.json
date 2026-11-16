@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-11-15T10:30:16.105749+00:00",
+  "retrieved_at": "2026-11-16T07:23:43.802246+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-11-15T10:18:07.244705+00:00",
+  "source_updated_at": "2026-11-16T07:08:04.388651+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-11-14"
+    "to": "2026-11-15"
   },
   "people": [
     {
@@ -121,11 +121,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-14"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-15"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-14",
+        "to": "2026-11-15",
         "list_complete": true
       }
     },
@@ -190,11 +194,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-14"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-15"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-14",
+        "to": "2026-11-15",
         "list_complete": true
       }
     },
@@ -259,11 +267,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-14"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-15"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-14",
+        "to": "2026-11-15",
         "list_complete": true
       }
     },
@@ -328,11 +340,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-14"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-15"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-14",
+        "to": "2026-11-15",
         "list_complete": true
       }
     }
@@ -30576,6 +30592,96 @@
         "web_url": "https://gitlab.icp7-1.ru/integrator-71/backend/-/merge_requests/86",
         "files_changed": 18,
         "files_known": 18
+      }
+    },
+    {
+      "accepted_day": "2026-11-15",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-8ac9734445e8ea4c8987d5a3",
+      "work_unit_id": "u-0e5c4edf0b264908b3e06cae",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 239,
+          "deleted": 38,
+          "churn": 277,
+          "net": 201,
+          "known_added": 239,
+          "known_deleted": 38,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 187,
+          "deleted": 11,
+          "churn": 198,
+          "net": 176,
+          "known_added": 187,
+          "known_deleted": 11,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 1,
+          "deleted": 0,
+          "churn": 1,
+          "net": 1,
+          "known_added": 1,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Адаптировать главную к размерам окна и добавить доступную карусель направлений с управлением клавиатурой и жестами.",
+      "details": {
+        "iid": 187,
+        "title": "feat: адаптировать главную и добавить карусель направлений",
+        "module": "frontend",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/187",
+        "files_changed": 16,
+        "files_known": 16
       }
     }
   ]

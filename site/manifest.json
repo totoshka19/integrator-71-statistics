@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "source": "public build manifest",
-  "retrieved_at": "2026-11-15T10:30:16.452702+00:00",
+  "retrieved_at": "2026-11-16T07:23:44.052644+00:00",
   "files": {
     "index.html": "433a288ecd12e258acc2cf0a153bceea589c613929275d43196324c166b9bb27",
     "assets/aggregate.mjs": "df21a282755e4ba42ff58b0679bdceb9edcb583828d72280e40cc19114cf16d9",
     "assets/app.mjs": "792d6ef74263369d2834698ba9c33c8e4ceeba7fc23e1a6982851e6058d7ad57",
     "assets/styles.css": "1e7e010fc4ce473123ff7a5c611cc8b87b85d1f207dfc1ba1a4dc2795a0cac7c",
-    "data/metrics.json": "8670b3faa036130f5c5347db1fb8ae903dc9bb70a1c6221d82d733b220937516"
+    "data/metrics.json": "1eeb7253f127cd3fb06e04a5ab86596a41f38436e0e49a0dce7481df01a13d04"
   }
 }
