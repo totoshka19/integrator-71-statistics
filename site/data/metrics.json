@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-11-16T07:23:43.802246+00:00",
+  "retrieved_at": "2026-11-17T07:35:57.480131+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-11-16T07:08:04.388651+00:00",
+  "source_updated_at": "2026-11-17T07:26:43.505466+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-11-15"
+    "to": "2026-11-16"
   },
   "people": [
     {
@@ -125,11 +125,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-15"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-16"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-15",
+        "to": "2026-11-16",
         "list_complete": true
       }
     },
@@ -198,11 +202,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-15"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-16"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-15",
+        "to": "2026-11-16",
         "list_complete": true
       }
     },
@@ -271,11 +279,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-15"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-16"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-15",
+        "to": "2026-11-16",
         "list_complete": true
       }
     },
@@ -344,11 +356,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-15"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-16"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-15",
+        "to": "2026-11-16",
         "list_complete": true
       }
     }
@@ -30682,6 +30698,276 @@
         "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/187",
         "files_changed": 16,
         "files_known": 16
+      }
+    },
+    {
+      "accepted_day": "2026-11-16",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-f89f99d2f09c9eeebf6b128d",
+      "work_unit_id": "u-6460668824da6d301fa30366",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-82b43d8c27002f9492a19949",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 288,
+          "deleted": 7,
+          "churn": 295,
+          "net": 281,
+          "known_added": 288,
+          "known_deleted": 7,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 215,
+          "deleted": 17,
+          "churn": 232,
+          "net": 198,
+          "known_added": 215,
+          "known_deleted": 17,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавить ленту уведомлений с фильтрами, снимком пагинации и одиночным или массовым прочтением.",
+      "details": {
+        "iid": 186,
+        "title": "feat: добавить страницу уведомлений с фильтрами и отметками прочтения",
+        "module": "frontend",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/186",
+        "files_changed": 12,
+        "files_known": 12
+      }
+    },
+    {
+      "accepted_day": "2026-11-16",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "300000000",
+      "sp_selected_ticks": "300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-913a26af76152b422eb7f876",
+      "work_unit_id": "u-741c73f6caeaf34f695607c9",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 74,
+          "deleted": 15,
+          "churn": 89,
+          "net": 59,
+          "known_added": 74,
+          "known_deleted": 15,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 323,
+          "deleted": 47,
+          "churn": 370,
+          "net": 276,
+          "known_added": 323,
+          "known_deleted": 47,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавить фильтр производителя в админку каталога с полным справочником, повтором загрузки и сбросом выделения.",
+      "details": {
+        "iid": 189,
+        "title": "feat: добавить фильтр по производителю в админку каталога",
+        "module": "Каталог",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/189",
+        "files_changed": 9,
+        "files_known": 9
+      }
+    },
+    {
+      "accepted_day": "2026-11-16",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-c50c8688612a0961963e058c",
+      "work_unit_id": "u-9cf40f6401f44428d241eff0",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 7,
+          "deleted": 5,
+          "churn": 12,
+          "net": 2,
+          "known_added": 7,
+          "known_deleted": 5,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 534,
+          "deleted": 8,
+          "churn": 542,
+          "net": 526,
+          "known_added": 534,
+          "known_deleted": 8,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 42,
+          "deleted": 0,
+          "churn": 42,
+          "net": 42,
+          "known_added": 42,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 3,
+          "deleted": 2,
+          "churn": 5,
+          "net": 1,
+          "known_added": 3,
+          "known_deleted": 2,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Обновить меню и карточки главной и добавить выбор связанных e2e-наборов в CI с полным резервным прогоном.",
+      "details": {
+        "iid": 190,
+        "title": "fix: обновить меню и карточки главной страницы",
+        "module": "frontend",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/190",
+        "files_changed": 12,
+        "files_known": 12
       }
     }
   ]
