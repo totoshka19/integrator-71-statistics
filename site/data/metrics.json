@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "source": "public_statistics",
-  "retrieved_at": "2026-11-17T07:35:57.480131+00:00",
+  "retrieved_at": "2026-11-18T07:23:49.646756+00:00",
   "methodology_version": "sp-v1",
   "line_methodology_version": "loc-v1.1",
   "tick_denominator": "100000000",
-  "source_updated_at": "2026-11-17T07:26:43.505466+00:00",
+  "source_updated_at": "2026-11-18T07:12:16.924960+00:00",
   "period": {
     "from": "2026-09-01",
-    "to": "2026-11-16"
+    "to": "2026-11-17"
   },
   "people": [
     {
@@ -129,11 +129,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-17"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-16",
+        "to": "2026-11-17",
         "list_complete": true
       }
     },
@@ -206,11 +210,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-17"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-16",
+        "to": "2026-11-17",
         "list_complete": true
       }
     },
@@ -283,11 +291,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-17"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-16",
+        "to": "2026-11-17",
         "list_complete": true
       }
     },
@@ -360,11 +372,15 @@
         {
           "from": "2026-09-01",
           "to": "2026-11-16"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-11-17"
         }
       ],
       "last_attempt": {
         "from": "2026-09-01",
-        "to": "2026-11-16",
+        "to": "2026-11-17",
         "list_complete": true
       }
     }
@@ -30968,6 +30984,636 @@
         "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/190",
         "files_changed": 12,
         "files_known": 12
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "1300000000",
+      "sp_selected_ticks": "1300000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-a012e920669648e5d4a30804",
+      "work_unit_id": "u-1bba2dda15ddb72e12019ec8",
+      "project_id": "r-e688293df5ab55141ccd74a4",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 317,
+          "deleted": 0,
+          "churn": 317,
+          "net": 317,
+          "known_added": 317,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 179,
+          "deleted": 98,
+          "churn": 277,
+          "net": 81,
+          "known_added": 179,
+          "known_deleted": 98,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 5955,
+          "deleted": 450,
+          "churn": 6405,
+          "net": 5505,
+          "known_added": 5955,
+          "known_deleted": 450,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Описать единую модель финансовой симуляции: выплаты по событиям, возвраты, профили и денежные инварианты.",
+      "details": {
+        "iid": 54,
+        "title": "feat: описать выплаты по событиям заказа",
+        "module": "contracts",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/contracts/-/merge_requests/54",
+        "files_changed": 45,
+        "files_known": 45
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-bdbeeac8eefd368ab5ef7c8b",
+      "work_unit_id": "u-df22a6edbbd7f84c19b438d8",
+      "project_id": "r-e688293df5ab55141ccd74a4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 234,
+          "deleted": 0,
+          "churn": 234,
+          "net": 234,
+          "known_added": 234,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 240,
+          "deleted": 107,
+          "churn": 347,
+          "net": 133,
+          "known_added": 240,
+          "known_deleted": 107,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 990,
+          "deleted": 491,
+          "churn": 1481,
+          "net": 499,
+          "known_added": 990,
+          "known_deleted": 491,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Описать версии технологических карт и административное чтение с поиском и фильтрами.",
+      "details": {
+        "iid": 55,
+        "title": "feat: описать данные и административное чтение технологических карт",
+        "module": "Каталог",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/contracts/-/merge_requests/55",
+        "files_changed": 21,
+        "files_known": 21
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-e4a2c67f161e81684b62a593",
+      "work_unit_id": "u-dffef6fd9597a835529b8187",
+      "project_id": "r-e688293df5ab55141ccd74a4",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 50,
+          "deleted": 19,
+          "churn": 69,
+          "net": 31,
+          "known_added": 50,
+          "known_deleted": 19,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 165,
+          "deleted": 119,
+          "churn": 284,
+          "net": 46,
+          "known_added": 165,
+          "known_deleted": 119,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 1237,
+          "deleted": 1080,
+          "churn": 2317,
+          "net": 157,
+          "known_added": 1237,
+          "known_deleted": 1080,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Дополнить финансовую политику и историю признания и корректировок комиссии.",
+      "details": {
+        "iid": 56,
+        "title": "feat: завершить финансовую политику и историю корректировок",
+        "module": "contracts",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/contracts/-/merge_requests/56",
+        "files_changed": 19,
+        "files_known": 19
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-c88b422fae66783ff2990003",
+      "work_unit_id": "u-4c5c35ac5ecd3b793832863c",
+      "project_id": "r-e688293df5ab55141ccd74a4",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 12,
+          "deleted": 0,
+          "churn": 12,
+          "net": 12,
+          "known_added": 12,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 369,
+          "deleted": 271,
+          "churn": 640,
+          "net": 98,
+          "known_added": 369,
+          "known_deleted": 271,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 312,
+          "deleted": 262,
+          "churn": 574,
+          "net": 50,
+          "known_added": 312,
+          "known_deleted": 262,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 133,
+          "deleted": 34,
+          "churn": 167,
+          "net": 99,
+          "known_added": 133,
+          "known_deleted": 34,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Описать персональную доставку notification.created и восстановление через REST, исправить чтение версии Python-пакета.",
+      "details": {
+        "iid": 57,
+        "title": "feat: описать персональную доставку уведомлений через Socket.IO",
+        "module": "contracts",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/contracts/-/merge_requests/57",
+        "files_changed": 22,
+        "files_known": 22
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "100000000",
+      "sp_selected_ticks": "100000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-9b25fed87d5bf704f9f1a0c1",
+      "work_unit_id": "u-5334fc9a1346d199ce27ed22",
+      "project_id": "r-e688293df5ab55141ccd74a4",
+      "contributors": [
+        {
+          "person_id": "p-a1ec417bdb6b43642e303c7c",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 24,
+          "deleted": 20,
+          "churn": 44,
+          "net": 4,
+          "known_added": 24,
+          "known_deleted": 20,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Актуализировать обзор контрактов и границы внедрения потребителей в README.",
+      "details": {
+        "iid": 58,
+        "title": "docs: актуализировать README контрактов 0.36.0",
+        "module": "contracts",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/contracts/-/merge_requests/58",
+        "files_changed": 1,
+        "files_known": 1
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-4966701b5f9ef1ef3e75adcf",
+      "work_unit_id": "u-a72dbf67b9917625195c9ee9",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 22,
+          "deleted": 2,
+          "churn": 24,
+          "net": 20,
+          "known_added": 22,
+          "known_deleted": 2,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 651,
+          "deleted": 128,
+          "churn": 779,
+          "net": 523,
+          "known_added": 651,
+          "known_deleted": 128,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 140,
+          "deleted": 40,
+          "churn": 180,
+          "net": 100,
+          "known_added": 140,
+          "known_deleted": 40,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 38,
+          "deleted": 1,
+          "churn": 39,
+          "net": 37,
+          "known_added": 38,
+          "known_deleted": 1,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Стабилизировать проверки новых вкладок и изменить зависимости и объём e2e в CI.",
+      "details": {
+        "iid": 191,
+        "title": "fix: стабилизировать проверки вкладок и распараллелить CI",
+        "module": "frontend",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/191",
+        "files_changed": 32,
+        "files_known": 32
+      }
+    },
+    {
+      "accepted_day": "2026-11-17",
+      "status": "new",
+      "classification": "new",
+      "source_available": true,
+      "sp_neural_ticks": "500000000",
+      "sp_selected_ticks": "500000000",
+      "selected_source": "neural_analysis",
+      "confidence": "medium",
+      "mr_key": "m-f31b5ab31a77674d860e0417",
+      "work_unit_id": "u-5fa9e75863e7d0ff3c34b348",
+      "project_id": "r-5f6b805554b0de491c5f80c4",
+      "contributors": [
+        {
+          "person_id": "p-a1a52ebf6271394a4e308496",
+          "share_bp": 10000
+        }
+      ],
+      "categories": {
+        "code": {
+          "added": 253,
+          "deleted": 3,
+          "churn": 256,
+          "net": 250,
+          "known_added": 253,
+          "known_deleted": 3,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "tests": {
+          "added": 500,
+          "deleted": 11,
+          "churn": 511,
+          "net": 489,
+          "known_added": 500,
+          "known_deleted": 11,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "documentation": {
+          "added": 21,
+          "deleted": 0,
+          "churn": 21,
+          "net": 21,
+          "known_added": 21,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "configuration": {
+          "added": 5,
+          "deleted": 5,
+          "churn": 10,
+          "net": 0,
+          "known_added": 5,
+          "known_deleted": 5,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "excluded": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        },
+        "unsupported": {
+          "added": 0,
+          "deleted": 0,
+          "churn": 0,
+          "net": 0,
+          "known_added": 0,
+          "known_deleted": 0,
+          "complete": true,
+          "unknown_files": 0
+        }
+      },
+      "summary": "Добавить просмотр финансовых расчётов подзаказа с независимой загрузкой и повтором, обновить SDK и генерацию типов.",
+      "details": {
+        "iid": 193,
+        "title": "feat: добавить подробные расчёты подзаказа в админке",
+        "module": "Администрирование",
+        "web_url": "https://gitlab.icp7-1.ru/integrator-71/frontend/-/merge_requests/193",
+        "files_changed": 21,
+        "files_known": 21
       }
     }
   ]
